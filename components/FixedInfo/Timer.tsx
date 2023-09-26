@@ -2,6 +2,9 @@
 
 import { Space_Grotesk } from "next/font/google";
 import { useEffect, useState } from "react"
+
+type Props = { currentDate: Date }
+
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"], weight: "500" });
 
 function getFormattedTime(date: Date) {
@@ -17,10 +20,10 @@ function getFormattedTime(date: Date) {
 }
 
 
-export default function Timer() {
+export default function Timer(props: Props) {
 
 
-    const [currentTime, setCurrentTime] = useState("")
+    const [currentTime, setCurrentTime] = useState(getFormattedTime(props.currentDate))
     useEffect(() => {
         const date = new Date()
         setCurrentTime(getFormattedTime(date))
@@ -29,6 +32,6 @@ export default function Timer() {
             setCurrentTime(getFormattedTime(date))
         }, 1000)
     }, [])
-    return <p className={`ml-4 my-5 text-lg text-green-400 ${space_Grotesk.className}`}>Current time: {currentTime}</p>
+    return <p className={` transition-all ml-4 my-5 text-lg text-green-400 ${space_Grotesk.className}`}>Current time: {currentTime}</p>
 
 }

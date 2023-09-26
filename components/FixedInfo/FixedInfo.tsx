@@ -7,7 +7,7 @@ const roboto = Roboto({
 });
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700" });
 export default function FixedInfo() {
-
+    const currentDate = new Date()
     return (
         <div className="w-1/2 fixed  ">
             <svg
@@ -101,7 +101,7 @@ export default function FixedInfo() {
                 </div>
                 <span className="text-[#3ECF8E]">Available for projects</span>
             </button>
-            <Timer />
+            <Timer currentDate={currentDate} />
             <div className="mt-6 ml-4  h-[2px] w-3/4 rounded-full bg-gradient-to-r from-[#3ECF8E]  to-[#0C1311] "></div>
             <ul className={` flex gap-4 font-light mt-6 text-sm ml-4 text-slate-500  ${space_Grotesk.className} `}>
                 <li className="hover:text-[#57debe] transition-colors hover:cursor-pointer">ABOUT</li>

@@ -1,17 +1,17 @@
 import { Inter, Space_Grotesk } from "next/font/google";
+import styles from "@/components/About/styles.module.css"
 
 const inter = Inter({ weight: "700", subsets: ["latin"] });
 const space_Grotesk = Space_Grotesk({ weight: ["400", "500"], subsets: ["latin"] });
 export default function About() {
-    //TODO MAKE THE 3 paragraphs animate
 
     return (
-        <div>
-            <p className={`text-4xl text-[#cad6f6] ${inter.className}`}>
+        <section>
+            <h1 className={`text-4xl text-[#cad6f6]  ${inter.className}`}>
                 Hey there, I'm Yassine Azouz 👋
-            </p>
+            </h1>
             <p
-                className={` mt-8 text-lg italic text-slate-400 font-normal ${space_Grotesk.className}`}
+                className={` mt-8 text-lg italic w-[90%] text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]} `}
             >
                 I'm a passionate self-taught developer and a {" "}
                 <a
@@ -34,10 +34,11 @@ export default function About() {
                     programming languages
                 </a>{" "}
                 and <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0 ">frameworks</span> to
-                expand my knowledge and skills.
+                expand my knowledge and skills 🔨
             </p>
             <p
-                className={`mt-8 text-lg italic text-slate-400 font-normal ${space_Grotesk.className}`}
+
+                className={`mt-8 w-[90%] text-lg italic text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]} `}
             >
                 Being a{" "}
                 <a
@@ -51,14 +52,16 @@ export default function About() {
                 ideas and experimenting with different technologies. I always strive to
                 push the boundaries and improve my craft. I aim for{" "}
                 <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">greatness</span> in
-                everything I create.
+                everything I create ✨
             </p>
-            <p className={`mt-8 text-lg italic text-slate-400 font-normal ${space_Grotesk.className}`}>
+            <p
+
+                className={`mt-8 w-[90%] text-lg italic text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]}`}>
                 When the night comes, you'll often find me enthusiastically <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">learning</span> how
                 to write the best software possible and optimizing it to run even
                 better. The thrill of <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">making software</span> more efficient and effective keeps
-                me going.
+                me going ⚡
             </p>
-        </div>
+        </section>
     );
 }

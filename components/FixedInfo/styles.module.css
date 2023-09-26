@@ -1,7 +1,7 @@
 .animated-text-copy {
   stroke: white;
   stroke-width: 2px;
-  animation: text-animation 5s alternate;
+  animation: text-animation 3s alternate;
 
   animation-delay: 250ms;
 }
