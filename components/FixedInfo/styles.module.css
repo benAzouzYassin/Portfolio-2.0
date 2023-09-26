@@ -1,0 +1,18 @@
+.animated-text-copy {
+  stroke: white;
+  stroke-width: 2px;
+  animation: text-animation 5s alternate;
+
+  animation-delay: 250ms;
+}
+@keyframes text-animation {
+  100% {
+    stroke-dasharray: 50% 0%;
+    stroke-dashoffset: 40%;
+  }
+
+  0% {
+    stroke-dasharray: 10% 10%;
+    stroke-dashoffset: 30%;
+  }
+}
