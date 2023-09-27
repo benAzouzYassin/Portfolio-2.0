@@ -7,7 +7,7 @@ const space_Grotesk = Space_Grotesk({
 
 export default function Frontend() {
     return <div className={`${space_Grotesk.className}`} >
-        <h3 className={` text-[#cfd7ec] mt-5 text-xl font-medium  underline underline-offset-4  tracking-wide`}>FRONTEND</h3>
+        <h3 className={`  text-[#cfd7ec] mt-5 text-xl font-medium  underline underline-offset-4  tracking-wide`}>FRONTEND</h3>
         <div className=" grid grid-cols-4 mt-5 gap-5 w-[95%]">
             {technologies.frontend.map(tech => <div key={tech.name} className="grayscale-[50%] hover:grayscale-0 hover:text-gray-200 hover:cursor-pointer font-light flex gap-2 text-[#aeb8d3]">
                 <img src={tech.icon} alt="" width="25" />

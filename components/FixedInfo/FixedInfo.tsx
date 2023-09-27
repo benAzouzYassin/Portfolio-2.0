@@ -5,7 +5,7 @@ const roboto = Roboto({
     subsets: ["cyrillic-ext"],
     weight: ["500", "400", "300"],
 });
-const space_Grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700" });
+const space_Grotesk = Space_Grotesk({ subsets: ["latin"], weight: ["700", "500"] });
 export default function FixedInfo() {
     const currentDate = new Date()
     return (

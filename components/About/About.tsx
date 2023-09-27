@@ -11,7 +11,7 @@ export default function About() {
                 Hey there, I'm Yassine Azouz 👋
             </h1>
             <p
-                className={` mt-8 text-lg italic w-[90%] text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]} `}
+                className={` mt-8 text-lg  w-[90%] text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]} `}
             >
                 I'm a passionate self-taught developer and a {" "}
                 <a
@@ -38,7 +38,7 @@ export default function About() {
             </p>
             <p
 
-                className={`mt-8 w-[90%] text-lg italic text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]} `}
+                className={`mt-8 w-[90%] text-lg  text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]} `}
             >
                 Being a{" "}
                 <a
@@ -51,12 +51,12 @@ export default function About() {
                 is not just a job for me; it's a way of life. I'm always exploring new
                 ideas and experimenting with different technologies. I always strive to
                 push the boundaries and improve my craft. I aim for{" "}
-                <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">greatness</span> in
+                <span className="font-medium text-[#57debe]  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">greatness</span> in
                 everything I create ✨
             </p>
             <p
 
-                className={`mt-8 w-[90%] text-lg italic text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]}`}>
+                className={`mt-8 w-[90%] text-lg  text-slate-400 font-normal ${space_Grotesk.className} ${styles["paragraph"]}`}>
                 When the night comes, you'll often find me enthusiastically <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">learning</span> how
                 to write the best software possible and optimizing it to run even
                 better. The thrill of <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">making software</span> more efficient and effective keeps
