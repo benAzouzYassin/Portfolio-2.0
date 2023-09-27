@@ -3,7 +3,7 @@
   stroke-width: 2px;
   animation: text-animation 3s alternate;
 
-  animation-delay: 250ms;
+  animation-delay: 1s;
 }
 @keyframes text-animation {
   100% {

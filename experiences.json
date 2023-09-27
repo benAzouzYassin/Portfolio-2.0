@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Freelancer",
+    "company": "Mostaql",
+    "companyLogo": "/work.svg",
+    "period": "2023 - present"
+  },
+  {
+    "name": "Intern",
+    "company": "Caveo",
+    "companyLogo": "/work.svg",
+    "period": "2022 - 2022"
+  },
+  {
+    "name": "Student",
+    "company": "ISET zaghouan",
+    "companyLogo": "/university.svg",
+    "period": "2022 - present"
+  }
+]
