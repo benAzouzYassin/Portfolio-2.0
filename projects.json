@@ -24,7 +24,7 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/fireebaselearnin.appspot.com/o/react-admin-dashboard.png?alt=media&token=74dc2faa-4de7-44ff-b5fc-caf17e9f22ec&_gl=1*1o8i1s3*_ga*MTk4MDM0MzMyNC4xNjg2NTA1Mzk0*_ga_CW55HF8NVT*MTY5NTgyNzA0My4xNC4xLjE2OTU4MjgyNzAuMC4wLjA.",
     "name": "Admin Dashboard",
     "description": "An admin dashboard providing an interface for managing orders, customers and products. ",
-    "link": "https://react-admin-dashboard123.netlify.app/Dashboard",
+    "link": "https://react-admin-dashboard123.netlify.app/",
     "videoLink": ""
   }
 ]
