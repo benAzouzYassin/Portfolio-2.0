@@ -22,8 +22,8 @@ export default function Paragraph() {
       <span className="text-white font-medium">learn</span> and{" "}
       <span className="text-white font-medium">explore</span> to bring these
       visions to life. Here are a few{" "}
-      <span className="text-white font-medium">projects</span> I've recently
-      worked on {":)"}
+      <span className="text-white font-medium">projects</span> I&apos;ve
+      recently worked on {":)"}
     </p>
   );
 }

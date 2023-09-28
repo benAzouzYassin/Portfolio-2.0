@@ -15,7 +15,7 @@ export default function Projects() {
       <h2
         className={`flex gap-1 mt-16 font-bold text-4xl text-[#cad6f6]  ${inter.className}`}
       >
-        WHAT I'VE BUILT{" "}
+        WHAT I&apos;VE BUILT{" "}
         <SquareDashedBottomCode className="self-center scale-110" />
       </h2>
 

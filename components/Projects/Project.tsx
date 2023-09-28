@@ -2,7 +2,6 @@
 import { useInView } from "react-intersection-observer";
 import styles from "./style.module.css";
 import { useEffect } from "react";
-
 type Props = {
   img: string;
   name: string;
@@ -29,8 +28,6 @@ export default function Project(props: Props) {
         className=" aspect-[16/9]   rounded-md hover:cursor-pointer hover:scale-105 transition-transform  "
         src={props.img}
         alt={props.description}
-        height="auto"
-        width="auto"
         loading="lazy"
       />
       <h4 className="lg:text-xl text-base mt-3 font-medium">{props.name}</h4>

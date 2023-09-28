@@ -10,12 +10,12 @@ export default function About() {
       <h1
         className={`lg:text-4xl lg:font-bold text-xl mt-2 text-[#cad6f6]  ${inter.className}`}
       >
-        Hey there, I'm Yassine Ben Azouz👋
+        Hey there, I&apos;m Yassine Ben Azouz👋
       </h1>
       <p
         className={` mt-5 lg:mt-8 text-lg  w-[90%] text-slate-400 font-light  ${styles["paragraph"]} `}
       >
-        I'm a passionate self-taught developer and a{" "}
+        I&apos;m a passionate self-taught developer and a{" "}
         <a
           href="https://en.wikipedia.org/wiki/Computer_science"
           target="_blank"
@@ -53,9 +53,9 @@ export default function About() {
         >
           developer
         </a>{" "}
-        is not just a job for me; it's a way of life. I'm always exploring new
-        ideas and experimenting with different technologies. I always strive to
-        push the boundaries and improve my craft. I aim for{" "}
+        is not just a job for me; it&apos;s a way of life. I&apos;m always
+        exploring new ideas and experimenting with different technologies. I
+        always strive to push the boundaries and improve my craft. I aim for{" "}
         <span className="font-medium text-[#57debe]  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
           greatness
         </span>{" "}
@@ -64,7 +64,7 @@ export default function About() {
       <p
         className={`mt-8 w-[90%] text-lg  text-slate-400 font-normal ${styles["paragraph"]}`}
       >
-        When the night comes, you'll often find me enthusiastically{" "}
+        When the night comes, you&apos;ll often find me enthusiastically{" "}
         <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
           learning
         </span>{" "}
