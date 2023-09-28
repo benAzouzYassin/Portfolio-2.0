@@ -13,7 +13,7 @@ export default function Frontend() {
       >
         FRONTEND
       </h3>
-      <div className=" grid grid-cols-4 mt-5 gap-5 w-[95%]">
+      <div className=" grid lg:grid-cols-4 mt-5 grid-cols-2 gap-5 w-[95%]">
         {technologies.frontend.map((tech) => (
           <div
             key={tech.name}

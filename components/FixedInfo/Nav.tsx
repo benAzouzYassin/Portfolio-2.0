@@ -5,7 +5,7 @@ export default function Nav() {
     if (targerId != "ABOUT") {
       const targetOffset = document.getElementById(targerId)?.offsetTop;
       window.scrollTo({
-        top: targetOffset,
+        top: targetOffset ? targetOffset - 100 : 0,
         behavior: "smooth",
       });
     } else {
@@ -16,37 +16,41 @@ export default function Nav() {
     }
   };
   return (
-    <ul className={` flex gap-4 font-light mt-6 text-sm ml-4 text-slate-500 `}>
-      <li
-        onClick={handleClick}
-        className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
+    <>
+      <ul
+        className={` hidden lg:flex gap-4 mt-6 text-sm ml-4 text-slate-500 font-medium `}
       >
-        ABOUT
-      </li>
-      <li
-        onClick={handleClick}
-        className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
-      >
-        TECH STACK
-      </li>
-      <li
-        onClick={handleClick}
-        className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
-      >
-        PROJECTS
-      </li>
-      <li
-        onClick={handleClick}
-        className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
-      >
-        EXPERIENCES
-      </li>
-      <li
-        onClick={handleClick}
-        className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
-      >
-        FOOTER
-      </li>
-    </ul>
+        <li
+          onClick={handleClick}
+          className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
+        >
+          ABOUT
+        </li>
+        <li
+          onClick={handleClick}
+          className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
+        >
+          TECH STACK
+        </li>
+        <li
+          onClick={handleClick}
+          className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
+        >
+          PROJECTS
+        </li>
+        <li
+          onClick={handleClick}
+          className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
+        >
+          EXPERIENCES
+        </li>
+        <li
+          onClick={handleClick}
+          className="hover:text-[#57debe] transition-colors hover:cursor-pointer"
+        >
+          FOOTER
+        </li>
+      </ul>
+    </>
   );
 }

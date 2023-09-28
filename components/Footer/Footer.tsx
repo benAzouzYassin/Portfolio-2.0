@@ -19,7 +19,7 @@ export default function Footer() {
     <footer
       id="FOOTER"
       ref={ref}
-      className={`text-[#d1dce6] opacity-0 mt-48 ${space_Grotesk.className} font-light leading-7 text-xl `}
+      className={`text-[#d1dce6] opacity-0 mt-20 lg:mt-48 ${space_Grotesk.className} font-light leading-7 text-xl `}
     >
       <p>
         Passionately created by me {":)"}. Constructed using{" "}

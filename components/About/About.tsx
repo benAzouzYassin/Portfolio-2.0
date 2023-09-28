@@ -1,16 +1,19 @@
 import { Inter } from "next/font/google";
 import styles from "@/components/About/styles.module.css";
+import TopArrow from "../TopArrow/TopArrow";
 
-const inter = Inter({ weight: "700", subsets: ["latin"] });
+const inter = Inter({ weight: ["700", "500"], subsets: ["latin"] });
 
 export default function About() {
   return (
     <section id="ABOUT">
-      <h1 className={`text-4xl text-[#cad6f6]  ${inter.className}`}>
-        Hey there, I'm Yassine Azouz 👋
+      <h1
+        className={`lg:text-4xl lg:font-bold text-xl mt-2 text-[#cad6f6]  ${inter.className}`}
+      >
+        Hey there, I'm Yassine Ben Azouz👋
       </h1>
       <p
-        className={` mt-8 text-lg  w-[90%] text-slate-400 font-light  ${styles["paragraph"]} `}
+        className={` mt-5 lg:mt-8 text-lg  w-[90%] text-slate-400 font-light  ${styles["paragraph"]} `}
       >
         I'm a passionate self-taught developer and a{" "}
         <a
@@ -72,6 +75,7 @@ export default function About() {
         </span>{" "}
         more efficient and effective keeps me going ⚡
       </p>
+      <TopArrow />
     </section>
   );
 }

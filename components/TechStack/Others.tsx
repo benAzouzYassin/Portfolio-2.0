@@ -24,7 +24,7 @@ export default function Others() {
         Other things I am currently exploring, planning to delve into further,
         or have on my radar for future learning:
       </p>
-      <div className=" grid grid-cols-4 mt-5 gap-y-5 gap-x-7 w-[95%]">
+      <div className=" grid lg:grid-cols-4 grid-cols-2 mt-5 gap-y-5 gap-x-7 w-[95%]">
         {technologies.learning.map((tech) => (
           <div
             key={tech.name}

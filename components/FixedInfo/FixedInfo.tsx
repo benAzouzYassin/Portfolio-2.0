@@ -13,7 +13,7 @@ const space_Grotesk = Space_Grotesk({
 export default function FixedInfo() {
   const currentDate = new Date();
   return (
-    <div className="w-1/2 fixed  ">
+    <div className="lg:w-1/2 lg:fixed  ">
       <svg
         className=" text-white overflow-visible"
         viewBox="0 0 634 97"
@@ -28,7 +28,7 @@ export default function FixedInfo() {
           textAnchor="left"
           fill="none"
         >
-          Yassine Azouz
+          Yassine
         </text>
         <use
           xlinkHref="#animated-text"

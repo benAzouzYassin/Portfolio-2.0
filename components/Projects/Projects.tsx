@@ -21,7 +21,7 @@ export default function Projects() {
 
       <div className={space_Grotesk.className}>
         <Paragraph />
-        <div className="mt-10 grid grid-cols-2 gap-y-10 gap-x-16">
+        <div className="mt-10 grid lg:grid-cols-2 gap-y-10 gap-x-16">
           {projects.map((project, index) => (
             <Project key={project.name} index={index} {...project} />
           ))}

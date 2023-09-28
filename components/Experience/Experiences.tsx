@@ -4,10 +4,7 @@ import Exp from "./Exp";
 import { ArrowRight } from "lucide-react";
 
 const inter = Inter({ weight: "700", subsets: ["latin"] });
-const space_Grotesk = Space_Grotesk({
-  weight: ["400", "500", "300"],
-  subsets: ["latin"],
-});
+
 export default function Experiences() {
   return (
     <section id="EXPERIENCES" className="mt-10 text-[#cad6f6]">
@@ -23,10 +20,10 @@ export default function Experiences() {
       </div>
       <a
         href=""
-        className="flex font-light mt-5 gap-1 underline-offset-[6px] hover:underline hover:gap-3 transition-all hover:text-[#59e5c4] "
+        className="flex text-lg mt-10 font-normal lg:no-underline underline gap-1 underline-offset-[6px] hover:underline hover:gap-3 transition-all  hover:text-[#59e5c4] "
       >
         Feel free to review my professional Resume.{" "}
-        <ArrowRight className="self-end scale-105 mt-[1px] " />{" "}
+        <ArrowRight className=" lg:block hidden  self-end scale-105 mt-[1px] " />{" "}
       </a>
     </section>
   );

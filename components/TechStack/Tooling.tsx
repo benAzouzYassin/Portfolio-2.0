@@ -13,7 +13,7 @@ export default function Tooling() {
       >
         DEV OPS AND TOOLING
       </h3>
-      <div className=" grid grid-cols-4 mt-5 gap-5 w-[95%]">
+      <div className=" grid lg:grid-cols-4 grid-cols-2 mt-5 gap-5 w-[95%]">
         {technologies.tools.map((tech) => (
           <div
             key={tech.name}
