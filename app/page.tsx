@@ -4,7 +4,10 @@ import FixedInfo from "@/components/FixedInfo/FixedInfo";
 import Footer from "@/components/Footer/Footer";
 import Projects from "@/components/Projects/Projects";
 import TechStack from "@/components/TechStack/TechStack";
+import { resolve } from "path";
 export default function Home() {
+  // setTimeout(() => console.log("aaaaaa"), 1000);
+
   return (
     <main className="lg:pt-24 pt-16 lg:px-20 px-4 lg:justify-start justify-center flex overflow-x-hidden flex-col lg:flex-row relative w-[98vw] ">
       <FixedInfo />
