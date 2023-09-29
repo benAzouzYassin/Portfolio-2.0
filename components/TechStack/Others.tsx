@@ -18,7 +18,7 @@ export default function Others() {
     <div
       className={` h-fit pb-10 px-6  w-[95%] border-2 pt-6 text-[#aeb8d3] border-white mt-8 rounded-md`}
     >
-      <p ref={ref} className="flex font-light">
+      <p ref={ref} className="flex opacity-0 font-light">
         {" "}
         <ArrowRight />
         Other things I am currently exploring, planning to delve into further,
