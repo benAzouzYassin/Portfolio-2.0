@@ -18,7 +18,6 @@
     { "name": "Flask", "icon": "https://cdn.simpleicons.org/Flask/white" },
     { "name": "Firebase", "icon": "https://cdn.simpleicons.org/Firebase" },
     { "name": "MongoDB", "icon": "https://cdn.simpleicons.org/MongoDB" },
-    { "name": "PHP", "icon": "https://cdn.simpleicons.org/Php" },
     { "name": "MySQL", "icon": "https://cdn.simpleicons.org/MySQL" },
     {
       "name": "SocketIO",
@@ -43,6 +42,7 @@
     { "name": "Go", "icon": "https://cdn.simpleicons.org/Go" },
     { "name": "deno", "icon": "https://cdn.simpleicons.org/Deno/white" },
     { "name": "Bun", "icon": "https://cdn.simpleicons.org/Bun/white" },
+    { "name": "graphQL", "icon": "https://cdn.simpleicons.org/graphql" },
     { "name": "Postgresql", "icon": "https://cdn.simpleicons.org/Postgresql/" }
   ]
 }
