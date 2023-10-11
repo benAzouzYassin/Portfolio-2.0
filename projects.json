@@ -6,6 +6,15 @@
     "link": "https://github.com/benAzouzYassin/chatApp",
     "videoLink": ""
   },
+
+    {
+    "img": "https://firebasestorage.googleapis.com/v0/b/codersbattles.appspot.com/o/main.png?alt=media&token=3df99603-6875-4b14-be50-cf5523c5a466&_gl=1*1p7ca7u*_ga*NzkzMjIyNzQwLjE2OTY2ODE1OTI.*_ga_CW55HF8NVT*MTY5NzA1MzcwNy4xOC4xLjE2OTcwNTY3NDcuMzEuMC4w",
+    "name": "Coders Battle",
+    "description": "A platform where coders can solve challenges and climb ranks. users also can add new challenges. ",
+    "link": "https://github.com/benAzouzYassin/CodersBattle",
+    "videoLink": ""
+  },
+  
   {
     "img": "https://firebasestorage.googleapis.com/v0/b/fireebaselearnin.appspot.com/o/resto.PNG?alt=media&token=16d59f12-c18d-4b60-a73e-11742c2ad308&_gl=1*q7g4uq*_ga*MTk4MDM0MzMyNC4xNjg2NTA1Mzk0*_ga_CW55HF8NVT*MTY5NTgyNzA0My4xNC4xLjE2OTU4Mjc2MjQuMC4wLjA.",
     "name": "Food Ordering Platform",
@@ -19,12 +28,6 @@
     "description": "A Chrome extension that limits the user's time on specific websites.",
     "link": "https://github.com/benAzouzYassin/websites-time-limiter",
     "videoLink": ""
-  },
-  {
-    "img": "https://firebasestorage.googleapis.com/v0/b/fireebaselearnin.appspot.com/o/react-admin-dashboard.png?alt=media&token=74dc2faa-4de7-44ff-b5fc-caf17e9f22ec&_gl=1*1o8i1s3*_ga*MTk4MDM0MzMyNC4xNjg2NTA1Mzk0*_ga_CW55HF8NVT*MTY5NTgyNzA0My4xNC4xLjE2OTU4MjgyNzAuMC4wLjA.",
-    "name": "Admin Dashboard",
-    "description": "An admin dashboard providing an interface for managing orders, customers and products. ",
-    "link": "https://react-admin-dashboard123.netlify.app/",
-    "videoLink": ""
   }
+
 ]
