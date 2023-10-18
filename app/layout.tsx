@@ -5,8 +5,10 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'Yassine',
   description: 'Yassine ben azouz personal portfolio',
+  openGraph: { type: "profile", title: "Yassine", images: ["https://raw.githubusercontent.com/benAzouzYassin/portfolio-2.0/main/preview.PNG"] }
+
 }
 
 export default function RootLayout({
