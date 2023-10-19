@@ -19,7 +19,7 @@ export default function Experiences() {
         ))}
       </div>
       <a
-        href=""
+        href="/resume.pdf"
         className="flex text-lg mt-10 font-normal lg:no-underline underline gap-1 underline-offset-[6px] hover:underline hover:gap-3 transition-all  hover:text-[#59e5c4] "
       >
         Feel free to review my professional Resume.{" "}
