@@ -62,7 +62,7 @@ export default function About() {
         in everything I create ✨
       </p>
       <p
-        className={`mt-8 w-[90%] text-lg  text-slate-400 font-normal ${styles["paragraph"]}`}
+        className={`mt-8 w-[90%] text-lg hidden lg:block  text-slate-400 font-normal ${styles["paragraph"]}`}
       >
         When the night comes, you&apos;ll often find me enthusiastically{" "}
         <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
