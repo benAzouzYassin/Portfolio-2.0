@@ -1,48 +1,126 @@
 {
   "frontend": [
-    { "name": "Javascript", "icon": "https://cdn.simpleicons.org/Javascript" },
-    { "name": "Typescript", "icon": "https://cdn.simpleicons.org/Typescript" },
-    { "name": "React", "icon": "https://cdn.simpleicons.org/React" },
+    {
+      "name": "Javascript",
+      "icon": "https://cdn.simpleicons.org/Javascript"
+    },
+    {
+      "name": "Typescript",
+      "icon": "https://cdn.simpleicons.org/Typescript"
+    },
+    {
+      "name": "React",
+      "icon": "https://cdn.simpleicons.org/React"
+    },
     {
       "name": "TailwindCSS",
       "icon": "https://cdn.simpleicons.org/TailwindCSS"
     },
-    { "name": "Astro", "icon": "https://cdn.simpleicons.org/Astro" },
-    { "name": "Nextjs", "icon": "https://cdn.simpleicons.org/Next.js/white" },
-    { "name": "JQuery", "icon": "https://cdn.simpleicons.org/Jquery" }
+    {
+      "name": "Astro",
+      "icon": "https://cdn.simpleicons.org/Astro"
+    },
+    {
+      "name": "Nextjs",
+      "icon": "https://cdn.simpleicons.org/Next.js/white"
+    },
+    {
+      "name": "JQuery",
+      "icon": "https://cdn.simpleicons.org/Jquery"
+    }
   ],
   "backend": [
-    { "name": "Nodejs", "icon": "https://cdn.simpleicons.org/Node.js" },
-    { "name": "Express", "icon": "https://cdn.simpleicons.org/Express/white" },
-    { "name": "Python", "icon": "https://cdn.simpleicons.org/Python" },
-    { "name": "Flask", "icon": "https://cdn.simpleicons.org/Flask/white" },
-    { "name": "Firebase", "icon": "https://cdn.simpleicons.org/Firebase" },
-    { "name": "MongoDB", "icon": "https://cdn.simpleicons.org/MongoDB" },
-    { "name": "MySQL", "icon": "https://cdn.simpleicons.org/MySQL" },
+    {
+      "name": "Nodejs",
+      "icon": "https://cdn.simpleicons.org/Node.js"
+    },
+    {
+      "name": "Express",
+      "icon": "https://cdn.simpleicons.org/Express/white"
+    },
+    {
+      "name": "Python",
+      "icon": "https://cdn.simpleicons.org/Python"
+    },
+    {
+      "name": "Prisma",
+      "icon": "https://cdn.simpleicons.org/prisma/white"
+    },
+    {
+      "name": "Firebase",
+      "icon": "https://cdn.simpleicons.org/Firebase"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "https://cdn.simpleicons.org/MongoDB"
+    },
+    {
+      "name": "MySQL",
+      "icon": "https://cdn.simpleicons.org/MySQL"
+    },
     {
       "name": "SocketIO",
       "icon": "https://cdn.simpleicons.org/socketdotio/white"
     }
   ],
   "tools": [
-    { "name": "Git", "icon": "https://cdn.simpleicons.org/Git" },
-    { "name": "GitHub", "icon": "https://cdn.simpleicons.org/GitHub" },
-    { "name": "Vite", "icon": "https://cdn.simpleicons.org/Vite" }
+    {
+      "name": "Git",
+      "icon": "https://cdn.simpleicons.org/Git"
+    },
+    {
+      "name": "GitHub",
+      "icon": "https://cdn.simpleicons.org/GitHub"
+    },
+    {
+      "name": "Vite",
+      "icon": "https://cdn.simpleicons.org/Vite"
+    }
   ],
   "learning": [
-    { "name": "Angular", "icon": "https://cdn.simpleicons.org/Angular" },
-    { "name": "Docker", "icon": "https://cdn.simpleicons.org/Docker" },
+    {
+      "name": "Angular",
+      "icon": "https://cdn.simpleicons.org/Angular/red"
+    },
+    {
+      "name": "Docker",
+      "icon": "https://cdn.simpleicons.org/Docker"
+    },
     {
       "name": "Java",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
     },
-    { "name": "Springboot", "icon": "https://cdn.simpleicons.org/Springboot" },
-    { "name": "Flutter", "icon": "https://cdn.simpleicons.org/Flutter" },
-    { "name": "Dart", "icon": "https://cdn.simpleicons.org/Dart" },
-    { "name": "Go", "icon": "https://cdn.simpleicons.org/Go" },
-    { "name": "deno", "icon": "https://cdn.simpleicons.org/Deno/white" },
-    { "name": "Bun", "icon": "https://cdn.simpleicons.org/Bun/white" },
-    { "name": "graphQL", "icon": "https://cdn.simpleicons.org/graphql" },
-    { "name": "Postgresql", "icon": "https://cdn.simpleicons.org/Postgresql/" }
+    {
+      "name": "Springboot",
+      "icon": "https://cdn.simpleicons.org/Springboot"
+    },
+    {
+      "name": "Flutter",
+      "icon": "https://cdn.simpleicons.org/Flutter"
+    },
+    {
+      "name": "Dart",
+      "icon": "https://cdn.simpleicons.org/Dart"
+    },
+    {
+      "name": "Go",
+      "icon": "https://cdn.simpleicons.org/Go"
+    },
+    {
+      "name": "deno",
+      "icon": "https://cdn.simpleicons.org/Deno/white"
+    },
+    {
+      "name": "Bun",
+      "icon": "https://cdn.simpleicons.org/Bun/white"
+    },
+    {
+      "name": "graphQL",
+      "icon": "https://cdn.simpleicons.org/graphql"
+    },
+    {
+      "name": "Postgresql",
+      "icon": "https://cdn.simpleicons.org/Postgresql/"
+    }
   ]
 }
