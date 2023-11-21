@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { compiler: { styledComponents: true } }
+const nextConfig = {
+    images: { domains: ["cdn.simpleicons.org"], dangerouslyAllowSVG: true }, compiler: { styledComponents: true }
+}
 
 module.exports = nextConfig

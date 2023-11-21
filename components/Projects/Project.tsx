@@ -2,6 +2,8 @@
 import { useInView } from "react-intersection-observer";
 import styles from "./style.module.css";
 import { useEffect } from "react";
+import Image from "next/image";
+
 type Props = {
   img: string;
   name: string;
@@ -26,6 +28,8 @@ export default function Project(props: Props) {
     <div ref={ref} className={`opacity-0 text-[#aeb8d3] `}>
       <a href={props.link} target="_blank">
         <img
+
+
           className=" aspect-[16/9]   rounded-md hover:cursor-pointer hover:scale-105 transition-transform  "
           src={props.img}
           alt={props.description}

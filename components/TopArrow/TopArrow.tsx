@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 export default function TopArrow() {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-
+  console.log("rendered top arrow")
   useEffect(() => {
     setIsVisible(false);
     window.addEventListener("scroll", (e) => {
