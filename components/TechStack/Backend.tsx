@@ -1,5 +1,7 @@
 import { Space_Grotesk } from "next/font/google";
 import technologies from "@/techstack.json";
+import Image from "next/image";
+
 const space_Grotesk = Space_Grotesk({
   weight: ["400", "500"],
   subsets: ["latin"],
@@ -19,7 +21,7 @@ export default function Backend() {
             key={tech.name}
             className="grayscale-[50%] hover:grayscale-0 hover:text-gray-200 hover:cursor-pointer font-light flex gap-2 text-[#aeb8d3]"
           >
-            <img
+            <Image
               src={tech.icon}
               alt={tech.name}
               className="aspect-square"
