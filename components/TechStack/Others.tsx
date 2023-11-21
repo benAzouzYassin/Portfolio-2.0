@@ -1,25 +1,16 @@
-"use client";
-import { useInView } from "react-intersection-observer";
-import styles from "./styles.module.css";
 
 import { ArrowRight } from "lucide-react";
 import technologies from "@/techstack.json";
-import { useEffect } from "react";
 import Image from "next/image";
 
 export default function Others() {
-  const { ref, inView, entry } = useInView({ threshold: 0.2 });
-  useEffect(() => {
-    inView
-      ? entry?.target.classList.add(styles["paragraph-animation"])
-      : entry?.target.classList.remove(styles["paragraph-animation"]);
-  }, [inView]);
+
 
   return (
     <div
       className={` h-fit pb-10 px-6  w-[95%] border-2 pt-6 text-[#aeb8d3] border-white mt-8 rounded-md`}
     >
-      <p ref={ref} className="flex opacity-0 font-light">
+      <p className="flex  font-light">
         {" "}
         <ArrowRight />
         Other things I am currently exploring, planning to delve into further,
