@@ -1,13 +1,15 @@
 .paragraph-animation {
-  animation: paragraph-animation 1s forwards;
+    animation: paragraph-animation 1s forwards;
 }
+
 @keyframes paragraph-animation {
-  100% {
-    opacity: 1;
-    transform: translate(0%, 0%);
-  }
-  0% {
-    transform: translate(0%, 40%);
-    opacity: 0;
-  }
+    100% {
+        opacity: 1;
+        transform: translate(0%, 0%);
+    }
+
+    0% {
+        transform: translate(0%, 40%);
+        opacity: 0;
+    }
 }

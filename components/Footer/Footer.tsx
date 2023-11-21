@@ -1,8 +1,5 @@
-"use client";
-import styles from "./styles.module.css";
 import { Space_Grotesk } from "next/font/google";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
+
 const space_Grotesk = Space_Grotesk({
   weight: ["400", "500", "300"],
   subsets: ["latin"],
@@ -13,7 +10,7 @@ export default function Footer() {
   return (
     <footer
       id="FOOTER"
-      className={`text-[#d1dce6] opacity-0 mt-20 lg:mt-48 ${space_Grotesk.className} font-light leading-7 text-xl `}
+      className={`text-[#d1dce6]  mt-20 lg:mt-48 ${space_Grotesk.className} font-light leading-7 text-xl `}
     >
       <p>
         Passionately created by me {":)"}. Constructed using{" "}
