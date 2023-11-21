@@ -20,7 +20,7 @@ export default function Exp(props: Props) {
   }, [inView]);
 
   return (
-    <div ref={ref} className="flex lg:opacity-0 opacity-1 items-center gap-10 mt-5">
+    <div ref={ref} className="flex opacity-0 items-center gap-10 mt-5">
       <div className="border-[1px] border-white p-1 rounded-md">
         <img src={props.companyLogo} alt="" width="25" />
       </div>

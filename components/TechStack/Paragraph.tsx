@@ -18,7 +18,7 @@ export default function Paragraph() {
     <>
       <p
         ref={ref}
-        className={` lg:opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
+        className={` opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
       >
         In the realm of code, my primary stack encompasses{" "}
         <span className="text-yellow-200 font-medium  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">

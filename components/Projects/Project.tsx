@@ -23,7 +23,7 @@ export default function Project(props: Props) {
   }, [inView]);
 
   return (
-    <div ref={ref} className={`lg:opacity-0 text-[#aeb8d3] `}>
+    <div ref={ref} className={`opacity-0 text-[#aeb8d3] `}>
       <a href={props.link} target="_blank">
         <img
           className=" aspect-[16/9]   rounded-md hover:cursor-pointer hover:scale-105 transition-transform  "
