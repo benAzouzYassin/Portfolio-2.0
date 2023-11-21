@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function getSectionsOffsets() {
   const sectionsOffsets = ["ABOUT", "TECH STACK", "PROJECTS", "EXPERIENCES"]
@@ -39,7 +39,7 @@ export default function Nav() {
     }
   }, []);
 
-  const handleClick = useCallback(() => (e: any) => {
+  const handleClick = (e: any) => {
     const targerId = e.target.innerText;
     if (targerId != "ABOUT") {
       const targetOffset = document.getElementById(targerId)?.offsetTop;
@@ -53,7 +53,7 @@ export default function Nav() {
         behavior: "smooth",
       });
     }
-  }, [])
+  };
   return (
     <>
       <ul

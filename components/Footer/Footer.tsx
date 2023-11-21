@@ -8,17 +8,11 @@ const space_Grotesk = Space_Grotesk({
   subsets: ["latin"],
 });
 export default function Footer() {
-  const { ref, inView, entry } = useInView();
-  useEffect(() => {
-    inView
-      ? entry?.target.classList.add(styles["animation-class"])
-      : entry?.target.classList.remove(styles["animation-class"]);
-  }, [inView]);
+
 
   return (
     <footer
       id="FOOTER"
-      ref={ref}
       className={`text-[#d1dce6] opacity-0 mt-20 lg:mt-48 ${space_Grotesk.className} font-light leading-7 text-xl `}
     >
       <p>

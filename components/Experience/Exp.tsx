@@ -1,7 +1,4 @@
-"use client";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-import styles from "./styles.module.css";
+;
 import Image from "next/image";
 type Props = {
   name: string;
@@ -11,15 +8,9 @@ type Props = {
 };
 
 export default function Exp(props: Props) {
-  const { ref, inView, entry } = useInView();
 
-  useEffect(() => {
-    inView
-      ? entry?.target.classList.add(styles["animation-class"])
-      : entry?.target.classList.remove(styles["animation-class"]);
-  }, [inView]);
   return (
-    <div ref={ref} className="flex opacity-0 items-center gap-10 mt-5">
+    <div className={`flex  items-center gap-10 mt-5`}>
       <div className="border-[1px] border-white p-1 rounded-md">
         <Image src={props.companyLogo} alt="" height="20" width="25" />
       </div>
