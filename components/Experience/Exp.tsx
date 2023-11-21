@@ -18,7 +18,6 @@ export default function Exp(props: Props) {
       ? entry?.target.classList.add(styles["animation-class"])
       : entry?.target.classList.remove(styles["animation-class"]);
   }, [inView]);
-
   return (
     <div ref={ref} className="flex opacity-0 items-center gap-10 mt-5">
       <div className="border-[1px] border-white p-1 rounded-md">

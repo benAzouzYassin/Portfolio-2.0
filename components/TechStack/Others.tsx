@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 import { ArrowRight } from "lucide-react";
 import technologies from "@/techstack.json";
 import { useEffect } from "react";
+import Image from "next/image";
 
 export default function Others() {
   const { ref, inView, entry } = useInView({ threshold: 0.2 });
@@ -30,7 +31,7 @@ export default function Others() {
             key={tech.name}
             className="grayscale-[50%] hover:grayscale-0 hover:text-gray-200 hover:cursor-pointer font-light flex gap-2 text-[#aeb8d3]"
           >
-            <img
+            <Image
               className="aspect-square"
               src={tech.icon}
               alt={tech.name}
