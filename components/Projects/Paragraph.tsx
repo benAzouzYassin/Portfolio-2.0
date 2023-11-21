@@ -13,7 +13,7 @@ export default function Paragraph() {
   return (
     <p
       ref={ref}
-      className={` opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
+      className={` lg:opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
     >
       My main focus these days is dreaming up,{" "}
       <span className="text-white font-medium">creating</span> and working on
