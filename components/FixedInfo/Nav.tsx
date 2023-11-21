@@ -30,13 +30,10 @@ export default function Nav() {
   const [selectedSection, setSelectedSection] = useState("ABOUT");
   useEffect(() => {
     const sections = getSectionsOffsets();
-    if (screen && screen.width > 700) {
 
-
-      window.addEventListener("scroll", () => {
-        setSelectedSection(getSectionName(window.scrollY - 250, sections));
-      });
-    }
+    window.addEventListener("scroll", () => {
+      setSelectedSection(getSectionName(window.scrollY - 250, sections));
+    });
   }, []);
 
   const handleClick = (e: any) => {

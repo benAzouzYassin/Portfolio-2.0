@@ -23,7 +23,10 @@ export default function Timer(props: Props) {
   useEffect(() => {
     const date = new Date();
     setCurrentTime(getFormattedTime(date));
-
+    setInterval(() => {
+      const date = new Date();
+      setCurrentTime(getFormattedTime(date));
+    }, 1000);
   }, []);
   return (
     <p className={` transition-all ml-4 my-5 text-lg text-green-400 `}>

@@ -2,7 +2,6 @@ import { Roboto, Space_Grotesk } from "next/font/google";
 import style from "./styles.module.css";
 import Timer from "./Timer";
 import Nav from "./Nav";
-import Image from "next/image";
 const roboto = Roboto({
   subsets: ["cyrillic-ext"],
   weight: ["500", "400", "300"],
@@ -55,7 +54,7 @@ export default function FixedInfo() {
           target="_blank"
           className="hover:scale-110 text-md font-medium"
         >
-          <Image
+          <img
             alt="GitHub"
             height="20"
             width="20"
@@ -67,7 +66,7 @@ export default function FixedInfo() {
           target="_blank"
           className=" hover:scale-110 text-md font-medium"
         >
-          <Image
+          <img
             alt="Facebook"
             height="20"
             width="20"
@@ -80,7 +79,7 @@ export default function FixedInfo() {
           target="_blank"
           className="hover:scale-110 text-md font-medium"
         >
-          <Image
+          <img
             alt="LinkedIn"
             height="20"
             width="20"
@@ -92,7 +91,7 @@ export default function FixedInfo() {
           target="_blank"
           className="hover:scale-110 text-md font-medium"
         >
-          <Image
+          <img
             alt="Gmail"
             height="20"
             width="20"

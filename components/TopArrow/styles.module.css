@@ -1,12 +1,14 @@
 .btn-animation {
   animation: btn-show-keyframe 500ms forwards;
 }
+
 @keyframes btn-show-keyframe {
   0% {
     opacity: 0;
 
     transform: translate(50%, 0%);
   }
+
   100% {
     opacity: 0.7;
 

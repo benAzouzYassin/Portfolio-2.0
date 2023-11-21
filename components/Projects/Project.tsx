@@ -1,7 +1,7 @@
 "use client";
+import { useInView } from "react-intersection-observer";
 import styles from "./style.module.css";
 import { useEffect } from "react";
-
 type Props = {
   img: string;
   name: string;
@@ -11,14 +11,21 @@ type Props = {
   index: number;
 };
 export default function Project(props: Props) {
-
+  const { ref, inView, entry } = useInView();
+  const animationClass =
+    props.index % 2
+      ? styles["project-right-animate"]
+      : styles["project-left-animate"];
+  useEffect(() => {
+    inView
+      ? entry?.target.classList.add(animationClass)
+      : entry?.target.classList.remove(animationClass);
+  }, [inView]);
 
   return (
-    <div className={` text-[#aeb8d3] `}>
+    <div ref={ref} className={`opacity-0 text-[#aeb8d3] `}>
       <a href={props.link} target="_blank">
         <img
-
-
           className=" aspect-[16/9]   rounded-md hover:cursor-pointer hover:scale-105 transition-transform  "
           src={props.img}
           alt={props.description}
