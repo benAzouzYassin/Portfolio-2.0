@@ -70,7 +70,7 @@
     },
     {
       "name": "GitHub",
-      "icon": "https://cdn.simpleicons.org/GitHub"
+      "icon": "https://cdn.simpleicons.org/GitHub/white"
     },
     {
       "name": "Vite",
@@ -80,7 +80,7 @@
   "learning": [
     {
       "name": "Angular",
-      "icon": "https://cdn.simpleicons.org/Angular"
+      "icon": "https://cdn.simpleicons.org/Angular/red"
     },
     {
       "name": "Docker",

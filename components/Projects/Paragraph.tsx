@@ -1,19 +1,10 @@
-"use client";
-import styles from "./style.module.css";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
 
 export default function Paragraph() {
-  const { ref, inView, entry } = useInView({ threshold: 0.2 });
-  useEffect(() => {
-    inView
-      ? entry?.target.classList.add(styles["paragraph-animation"])
-      : entry?.target.classList.remove(styles["paragraph-animation"]);
-  }, [inView]);
+
   return (
     <p
-      ref={ref}
-      className={` opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
+
+      className={`  text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
     >
       My main focus these days is dreaming up,{" "}
       <span className="text-white font-medium">creating</span> and working on

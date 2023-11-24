@@ -99,7 +99,7 @@ export default function FixedInfo() {
           />
         </a>
       </div>
-      <a target="_blank" href="/resume.pdf" className="mt-8 ml-4  flex w-[300px] items-center gap-3 rounded-full bg-gradient-to-r from-[#122D22] via-[#265842] to-[#122D22] p-2 lg:px-4">
+      <a target="_blank" href="mailto:yassinebenazouz123@gmail.com" className="mt-8 ml-4  flex w-[300px] items-center gap-3 rounded-full bg-gradient-to-r from-[#122D22] via-[#265842] to-[#122D22] p-2 lg:px-4">
         <div className="flex h-5  w-5 items-center justify-center rounded-full bg-[#3ECF8E26]">
           <div className="m-auto h-3 w-3 animate-ping rounded-full bg-[rgb(62,207,142)]"></div>
         </div>
