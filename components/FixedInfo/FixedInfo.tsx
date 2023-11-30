@@ -75,7 +75,7 @@ export default function FixedInfo() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/yassine-ben-azouz-724782242/"
+          href="https://www.linkedin.com/in/yassine-ben-azouz123"
           target="_blank"
           className="hover:scale-110 text-md font-medium"
         >
