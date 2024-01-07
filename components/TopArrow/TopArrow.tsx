@@ -6,16 +6,17 @@ import styles from "./styles.module.css";
 export default function TopArrow() {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-
+  const onScroll = (e : Event) => {
+    if (window.scrollY > 500) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  }
   useEffect(() => {
     setIsVisible(false);
-    window.addEventListener("scroll", (e) => {
-      if (window.scrollY > 500) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    });
+    window.addEventListener("scroll",onScroll);
+    return ()=>window.removeEventListener("scroll" ,onScroll)
   }, []);
 
   const handleClick = () => {

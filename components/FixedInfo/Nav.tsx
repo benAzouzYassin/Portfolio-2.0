@@ -1,41 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
-function getSectionsOffsets() {
-  const sectionsOffsets = ["ABOUT", "TECH STACK", "PROJECTS", "EXPERIENCES"]
-    .map((s) => {
-      const sectionOffset = document.getElementById(s)?.offsetTop;
-      return { sectionName: s, sectionOffset: sectionOffset };
-    })
-    .reverse();
-  return sectionsOffsets;
-}
-function getSectionName(windowOffset: number, sections: any) {
-  const firstSection = sections[0];
-  const lastSection = sections[sections.length - 1];
-  if (windowOffset > firstSection.sectionOffset) {
-    return firstSection.sectionName;
-  }
-  if (windowOffset < lastSection.sectionOffset) {
-    return lastSection.sectionName;
-  }
-  for (let i = 0; i < sections.length; i++) {
-    if (sections[i].sectionOffset < windowOffset) {
-      return sections[i - 1].sectionName;
-    }
-  }
-}
+import {  useState } from "react";
 export default function Nav() {
   const [selectedSection, setSelectedSection] = useState("ABOUT");
-  useEffect(() => {
-    const sections = getSectionsOffsets();
-
-    window.addEventListener("scroll", () => {
-      setSelectedSection(getSectionName(window.scrollY - 250, sections));
-    });
-  }, []);
-
   const handleClick = (e: any) => {
     const targerId = e.target.innerText;
     if (targerId != "ABOUT") {

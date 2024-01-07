@@ -1,23 +1,8 @@
-"use client";
-
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-import styles from "./styles.module.css";
-
 export default function Paragraph() {
-  const { ref, inView, entry } = useInView({ threshold: 0.2 });
-  useEffect(() => {
-    if (inView) {
-      entry?.target.classList.add(styles["paragraph-animation"]);
-    } else {
-      entry?.target.classList.remove(styles["paragraph-animation"]);
-    }
-  }, [inView]);
-
   return (
     <>
       <p
-        ref={ref}
+
         className={` opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
       >
         In the realm of code, my primary stack encompasses{" "}

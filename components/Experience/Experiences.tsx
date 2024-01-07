@@ -1,4 +1,4 @@
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter} from "next/font/google";
 import experinces from "@/experiences.json";
 import Exp from "./Exp";
 import { ArrowRight } from "lucide-react";

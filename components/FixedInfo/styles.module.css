@@ -3,8 +3,9 @@
 .animated-text-copy {
   stroke: white;
   stroke-width: 2px;
+
   animation: text-animation 3s alternate;
-  animation-delay: 150ms;
+  animation-delay: 350ms;
 }
 
 @keyframes text-animation {
