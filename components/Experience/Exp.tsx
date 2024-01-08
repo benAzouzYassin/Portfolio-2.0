@@ -1,3 +1,8 @@
+"use client"
+
+import { useSectionsContext } from "@/context/sectionsContext";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
 type Props = {
   name: string;
@@ -7,9 +12,14 @@ type Props = {
 };
 
 export default function Exp(props: Props) {
+  const { ref, inView } = useInView();
+  const {updateSection} = useSectionsContext()
+  useEffect(()=>{
+      inView && updateSection("EXPERIENCES")
+  },[inView , updateSection])
 
   return (
-    <div className="flex  items-center gap-10 mt-5">
+    <div ref={ref} className="flex  items-center gap-10 mt-5">
       <div className="border-[1px] border-white p-1 rounded-md">
         <img src={props.companyLogo} alt="" width="25" />
       </div>

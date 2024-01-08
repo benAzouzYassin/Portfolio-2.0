@@ -1,8 +1,8 @@
 "use client";
-
-import {  useState } from "react";
+import { useSectionsContext } from "@/context/sectionsContext";
 export default function Nav() {
-  const [selectedSection, setSelectedSection] = useState("ABOUT");
+  const sections = ["ABOUT" , "TECH STACK" , "PROJECTS" , "EXPERIENCES"]
+  const {currentSection} =useSectionsContext()
   const handleClick = (e: any) => {
     const targerId = e.target.innerText;
     if (targerId != "ABOUT") {
@@ -23,34 +23,14 @@ export default function Nav() {
       <ul
         className={` hidden lg:flex gap-4 mt-6 text-sm ml-4 text-slate-500 font-medium `}
       >
-        <li
+        {sections.map(section=> <li
+          key={section}
           onClick={handleClick}
-          className={`hover:text-[#57debe] transition-colors hover:cursor-pointer ${selectedSection == "ABOUT" && "text-[#57debe] font-extrabold"
+          className={`hover:text-[#57debe] transition-colors hover:cursor-pointer ${currentSection == section && "text-[#57debe] font-extrabold"
             } `}
         >
-          ABOUT
-        </li>
-        <li
-          onClick={handleClick}
-          className={`hover:text-[#57debe] transition-colors hover:cursor-pointer ${selectedSection == "TECH STACK" && "text-[#57debe] font-extrabold"
-            } `}
-        >
-          TECH STACK
-        </li>
-        <li
-          onClick={handleClick}
-          className={`hover:text-[#57debe] transition-colors hover:cursor-pointer ${selectedSection == "PROJECTS" && "text-[#57debe] font-extrabold"
-            } `}
-        >
-          PROJECTS
-        </li>
-        <li
-          onClick={handleClick}
-          className={`hover:text-[#57debe] transition-colors hover:cursor-pointer ${selectedSection == "EXPERIENCES" && "text-[#57debe] font-extrabold"
-            } `}
-        >
-          EXPERIENCES
-        </li>
+          {section}
+        </li>)}
       </ul>
     </>
   );
