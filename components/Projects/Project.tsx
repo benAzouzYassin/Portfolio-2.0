@@ -15,13 +15,11 @@ export default function Project(props: Props) {
         <div  className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
           <a href={props.link} target="_blank">
             <Image
-              quality={100}
               width={750}
               height={700}
               className="aspect-[16/9] hover:rotate-1 hover:scale-[102%] rounded-md hover:cursor-pointer transition-transform  "
               src={props.img}
               alt={props.description}
-              loading="lazy"
             />
           </a>
           <p className="lg:text-xl text-base mt-3 font-medium">{props.name}</p>
