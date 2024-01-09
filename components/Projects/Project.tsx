@@ -16,15 +16,15 @@ export default function Project(props: Props) {
   const animate = useAnimation()
   const ref = useRef(null)
   const inView = useInView(ref, { margin: "-200px" })
-  const even = props.index % 2 === 0
-  const translateX = even? -100 : 100
+  // const even = props.index % 2 === 0
+  // const translateX = even? -100 : 100
   useEffect(() => {
     if (inView) {
       animate.start({ opacity: 1, x: 0 })
     }
   }, [inView])
   return (
-    <motion.div animate={animate} transition={{ duration: 0.8 }} initial={{ opacity: 0, x: translateX }} ref={ref} className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
+    <motion.div animate={animate} transition={{ duration: 0.8 }} initial={{ opacity: 0, x: -  100 }} ref={ref} className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
       <a href={props.link} target="_blank">
         <Image
           quality={100}

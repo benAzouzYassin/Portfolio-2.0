@@ -34,14 +34,6 @@ export default function FixedInfo() {
           xlinkHref="#animated-text"
           className={style["animated-text-copy"]}
         ></use>
-        <use
-          xlinkHref="#animated-text"
-          className={style["animated-text-copy"]}
-        ></use>
-        <use
-          xlinkHref="#animated-text"
-          className={style["animated-text-copy"]}
-        ></use>
       </svg>
       <h1
         className={` pl-4 text-lg  uppercase tracking-[0.4rem] text-slate-400 sm:text-xl ${space_Grotesk.className}`}
