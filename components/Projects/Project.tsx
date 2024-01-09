@@ -27,7 +27,6 @@ export default function Project(props: Props) {
     <motion.div animate={animate} transition={{ duration: 0.8 }} initial={{ opacity: 0, x: -  100 }} ref={ref} className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
       <a href={props.link} target="_blank">
         <Image
-          quality={100}
           width={750}
           height={700}
           className="aspect-[16/9] hover:rotate-1 hover:scale-[102%] rounded-md hover:cursor-pointer transition-transform  "
