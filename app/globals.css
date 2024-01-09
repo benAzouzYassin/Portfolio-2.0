@@ -8,7 +8,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --rotate-x: "0deg";
-  --rotate-y: "0deg";
+    --rotate-y: "0deg";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +26,7 @@
 body {
   scrollbar-width: thin;
   scrollbar-color: #888 #f1f1f1;
-  /* background-image: url("/grainy.svg"); */
+  background-image: url("/grainy.svg");
 }
 
 ::-webkit-scrollbar {
