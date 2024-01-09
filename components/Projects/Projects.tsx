@@ -3,6 +3,7 @@ import { SquareDashedBottomCode } from "lucide-react";
 import Paragraph from "./Paragraph";
 import projects from "@/projects.json";
 import Project from "./Project";
+import { cn } from "@/utils";
 const space_Grotesk = Space_Grotesk({
   weight: ["400", "500"],
   subsets: ["latin"],
@@ -21,10 +22,10 @@ export default function Projects() {
 
       <div className={space_Grotesk.className}>
         <Paragraph />
-        <div className="mt-10 grid lg:grid-cols-2 gap-y-10 gap-x-16">
+        <div className="mt-10 flex flex-col gap-y-10 gap-x-16">
           {projects.map((project, index) => (
             <Project key={project.name} index={index} {...project} />
-          ))}
+            ))}
         </div>
       </div>
     </section>

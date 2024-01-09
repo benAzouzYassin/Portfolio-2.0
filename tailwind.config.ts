@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      rotate: {
+        'rotate-y': 'rotateX(var(--rotate-y, 0deg))',
+        'rotate-x': 'rotateX(var(--rotate-x, 0deg))',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

@@ -1,7 +1,9 @@
-"use client";
-import { useInView } from "react-intersection-observer";
-import styles from "./style.module.css";
-import { useEffect } from "react";
+"use client"
+
+import { motion, useAnimation, useInView } from "framer-motion";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+
 type Props = {
   img: string;
   name: string;
@@ -11,29 +13,31 @@ type Props = {
   index: number;
 };
 export default function Project(props: Props) {
-  const { ref, inView, entry } = useInView();
-  const animationClass =
-    props.index % 2
-      ? styles["project-right-animate"]
-      : styles["project-left-animate"];
+  const animate = useAnimation()
+  const ref = useRef(null)
+  const inView = useInView(ref, { margin: "-200px" })
+  // const even = props.index % 2 === 0
+  // const translateX = even? -100 : 100
   useEffect(() => {
-    inView
-      ? entry?.target.classList.add(animationClass)
-      : entry?.target.classList.remove(animationClass);
-  }, [inView]);
-
+    if (inView) {
+      animate.start({ opacity: 1, x: 0 })
+    }
+  }, [inView])
   return (
-    <div ref={ref} className={`opacity-0 text-[#aeb8d3] `}>
+    <motion.div animate={animate} transition={{ duration: 0.8 }} initial={{ opacity: 0, x: -  100 }} ref={ref} className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
       <a href={props.link} target="_blank">
-        <img
-          className=" aspect-[16/9]   rounded-md hover:cursor-pointer hover:scale-105 transition-transform  "
+        <Image
+          quality={100}
+          width={750}
+          height={700}
+          className="aspect-[16/9] hover:rotate-1 hover:scale-[102%] rounded-md hover:cursor-pointer transition-transform  "
           src={props.img}
           alt={props.description}
           loading="lazy"
         />
       </a>
-      <h4 className="lg:text-xl text-base mt-3 font-medium">{props.name}</h4>
-      <p className="font-normal mt-1 lg:block hidden">{props.description}</p>
-    </div>
+      <p className="lg:text-xl text-base mt-3 font-medium">{props.name}</p>
+      <p className="font-normal mt-1 lg:block hidden w-[95%]">{props.description}</p>
+    </motion.div>
   );
 }

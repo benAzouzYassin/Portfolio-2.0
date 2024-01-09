@@ -1,24 +1,29 @@
-"use client";
-
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-import styles from "./styles.module.css";
+"use client"
+import { useSectionsContext } from "@/context/sectionsContext";
+import { motion, useAnimation , useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 export default function Paragraph() {
-  const { ref, inView, entry } = useInView({ threshold: 0.2 });
+  const ref = useRef(null)
+  const inView= useInView(ref );
+  const { updateSection } = useSectionsContext()
+  const animate = useAnimation()
   useEffect(() => {
-    if (inView) {
-      entry?.target.classList.add(styles["paragraph-animation"]);
-    } else {
-      entry?.target.classList.remove(styles["paragraph-animation"]);
+    if(inView){
+      updateSection("TECH STACK")
+      animate.start({opacity : 1 , y : 0})
+    }else{
+      animate.start({opacity : 0 , y : 70 })
     }
-  }, [inView]);
-
+  }, [inView, updateSection , animate])
+  
   return (
     <>
-      <p
-        ref={ref}
-        className={` opacity-0 text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
+      <motion.p
+        initial ={{opacity : 0 , y : 70}}
+        transition={{duration : 0.55}}
+        animate={animate}
+        className={`  text-lg w-[95%] mt-5 text-slate-400 font-normal lg:text-left text-center  `}
       >
         In the realm of code, my primary stack encompasses{" "}
         <span className="text-yellow-200 font-medium  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
@@ -49,11 +54,13 @@ export default function Paragraph() {
           Deno
         </span>{" "}
         and{" "}
-        <span className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+        <span
+          ref={ref}
+          className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
           Bun
         </span>
         .
-      </p>
+      </motion.p>
     </>
   );
 }
