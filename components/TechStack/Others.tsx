@@ -18,7 +18,7 @@ export default function Others() {
   
   return (
     <div
-      className={` h-fit pb-10 px-6  w-[95%] border-2 pt-6 text-[#aeb8d3] border-white mt-8 rounded-md`}
+      className={` h-fit pb-10 px-6  w-[95%] border pt-6 text-[#aeb8d3] border-white mt-8 rounded-md`}
     >
       <motion.p
       ref={ref} 
