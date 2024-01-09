@@ -1,16 +1,27 @@
 "use client"
 import { useSectionsContext } from "@/context/sectionsContext";
 import { useEffect, useRef } from "react";
-import { useInView } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 export default function Paragraph() {
   const ref = useRef(null)
   const inView = useInView(ref , {margin :"-50px"});
   const {updateSection} = useSectionsContext()
-  useEffect(()=>{
-      inView && updateSection("PROJECTS")
-  },[inView , updateSection])
+  const animate = useAnimation()
+
+  useEffect(() => {
+    if(inView){
+      updateSection("PROJECTS")
+      animate.start({opacity : 1 , y : 0})
+    }else{
+      animate.start({opacity : 0 , y : 70 })
+    }
+  }, [inView, updateSection , animate])
+
   return (
-    <p
+    <motion.p
+    initial ={{opacity : 0 , y : 70}}
+    transition={{duration : 0.55}}
+    animate={animate}
       ref={ref}
       className={`  text-lg w-[95%] mt-5 text-slate-400 font-normal lg:text-left text-center  `}
     >
@@ -23,6 +34,6 @@ export default function Paragraph() {
       visions to life. Here are a few{" "}
       <span className="text-white font-medium">projects</span> I&apos;ve
       recently worked on {":)"}
-    </p>
+    </motion.p>
   );
 }
