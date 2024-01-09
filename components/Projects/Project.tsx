@@ -1,8 +1,6 @@
 "use client"
 
-import { motion, useAnimation, useInView } from "framer-motion";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
 
 type Props = {
   img: string;
@@ -13,19 +11,8 @@ type Props = {
   index: number;
 };
 export default function Project(props: Props) {
-  const animate = useAnimation()
-  const ref = useRef(null)
-  const inView = useInView(ref, { margin: "-200px" })
-  const even = props.index % 2 === 0
-  const translateX = even ? -100 : 100
-  useEffect(() => {
-    if (inView) {
-      animate.start({ opacity: 1, x: 0 })
-    }
-  }, [inView])
-  return (<>
-      <div className="h-2 w-2 " ref={ref}></div >
-        <motion.div animate={animate} transition={{ duration: 0.8 }} initial={{ opacity: 0, x: translateX }} className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
+  return (
+        <div  className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
           <a href={props.link} target="_blank">
             <Image
               quality={100}
@@ -39,7 +26,6 @@ export default function Project(props: Props) {
           </a>
           <p className="lg:text-xl text-base mt-3 font-medium">{props.name}</p>
           <p className="font-normal mt-1 lg:block hidden w-[95%]">{props.description}</p>
-        </motion.div>
-      </>
+        </div>
   );
 }
