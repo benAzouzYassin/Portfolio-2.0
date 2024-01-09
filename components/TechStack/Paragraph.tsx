@@ -1,11 +1,11 @@
 "use client"
 import { useSectionsContext } from "@/context/sectionsContext";
-import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
+import { motion, useAnimation , useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 export default function Paragraph() {
-  const { ref, inView } = useInView();
+  const ref = useRef(null)
+  const inView= useInView(ref );
   const { updateSection } = useSectionsContext()
   const animate = useAnimation()
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function Paragraph() {
       updateSection("TECH STACK")
       animate.start({opacity : 1 , y : 0})
     }else{
-      animate.set({opacity : 0 , y : 70 })
+      animate.start({opacity : 0 , y : 70 })
     }
   }, [inView, updateSection , animate])
   
@@ -23,7 +23,7 @@ export default function Paragraph() {
         initial ={{opacity : 0 , y : 70}}
         transition={{duration : 0.55}}
         animate={animate}
-        className={`  text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
+        className={`  text-lg w-[95%] mt-5 text-slate-400 font-normal lg:text-left text-center  `}
       >
         In the realm of code, my primary stack encompasses{" "}
         <span className="text-yellow-200 font-medium  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">

@@ -15,17 +15,16 @@ type Props = {
 export default function Project(props: Props) {
   const animate = useAnimation()
   const ref = useRef(null)
-  const inView = useInView(ref)
+  const inView = useInView(ref, { margin: "-200px" })
   const even = props.index % 2 === 0
+  const translateX = even? -100 : 100
   useEffect(() => {
-    if(inView){
-      animate.start({opacity : 1 , x : 0})
-    }else{
-      // animate.set({opacity : 0 , y : 70 })
+    if (inView) {
+      animate.start({ opacity: 1, x: 0 })
     }
   }, [inView])
   return (
-    <motion.div animate ={animate} transition={{duration : 0.5}} initial = {{opacity : 0 , x : even? -100 : 500 }} ref={ref} className={`text-[#aeb8d3]`}>
+    <motion.div animate={animate} transition={{ duration: 0.8 }} initial={{ opacity: 0, x: translateX }} ref={ref} className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
       <a href={props.link} target="_blank">
         <Image
           quality={100}
@@ -35,9 +34,9 @@ export default function Project(props: Props) {
           src={props.img}
           alt={props.description}
           loading="lazy"
-          />
+        />
       </a>
-      <h4 className="lg:text-xl text-base mt-3 font-medium">{props.name}</h4>
+      <p className="lg:text-xl text-base mt-3 font-medium">{props.name}</p>
       <p className="font-normal mt-1 lg:block hidden w-[95%]">{props.description}</p>
     </motion.div>
   );

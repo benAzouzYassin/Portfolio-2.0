@@ -12,7 +12,7 @@ export default function Others() {
     if(inView){
       animate.start({opacity : 1 , y : 0})
     }else{
-      animate.set({opacity : 0 , y : 70 })
+      animate.start({opacity : 0 , y : 70 })
     }
   }, [inView])
   

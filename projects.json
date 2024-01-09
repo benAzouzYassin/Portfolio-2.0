@@ -20,13 +20,5 @@
     "description": "E-commerce Admin Dashboard built with (Next.js / Typescript / Fastify  / PostgreSQL / Prisma ORM).",
     "link": "https://github.com/benAzouzYassin/E-commerce-website/tree/main/dashboard",
     "videoLink": ""
-  },
-
-  {
-    "img": "https://yassinebenazouz.vercel.app/chatting%20app.webp",
-    "name": "Real Time Chatting Website",
-    "description": "Chatting website like whatsapp built with (React / Flask / SocketIo / MongoDB)",
-    "link": "https://github.com/benAzouzYassin/chatApp",
-    "videoLink": ""
-  } 
+  }
 ]

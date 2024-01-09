@@ -1,15 +1,15 @@
 "use client"
-import { motion } from "framer-motion"
+import { motion , useInView } from "framer-motion"
 import { Inter } from "next/font/google";
 import TopArrow from "../TopArrow/TopArrow";
-import { useInView } from "react-intersection-observer";
 import { useSectionsContext } from "@/context/sectionsContext";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 const inter = Inter({ weight: ["700", "500"], subsets: ["latin"] });
 
 export default function About() {
-  const { ref, inView } = useInView({ trackVisibility: true, delay: 100 });
+  const ref = useRef(null)
+  const inView = useInView(ref);
   const { updateSection } = useSectionsContext()
   useEffect(() => {
     inView && updateSection("ABOUT")
@@ -31,7 +31,7 @@ export default function About() {
         initial={{ opacity: 0, y: 50 }}
         transition={{ delay: 0, duration: 0.5 }}
         animate={{ opacity: 1, y: 1 }}
-        className={` mt-5 lg:mt-8 text-lg  w-[90%] text-slate-400 font-light`}
+        className={` mt-5 lg:mt-8 text-lg lg:text-left text-center w-[95%] text-slate-400 font-light`}
       >
         I&apos;m a passionate self-taught developer and a{" "}
         <a
@@ -64,7 +64,7 @@ export default function About() {
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.6 }}
         animate={{ opacity: 1, y: 0 }}
-        className={`mt-8 w-[90%] text-lg  text-slate-400 font-normal `}
+        className="mt-8 w-[90%] text-lg  text-slate-400 font-normal  hidden lg:block"
       >
         Being a{" "}
         <a

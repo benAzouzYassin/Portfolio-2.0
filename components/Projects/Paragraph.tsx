@@ -1,20 +1,18 @@
 "use client"
 import { useSectionsContext } from "@/context/sectionsContext";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-
+import { useEffect, useRef } from "react";
+import { useInView } from "framer-motion";
 export default function Paragraph() {
-
-  const { ref, inView } = useInView({threshold : 1});
+  const ref = useRef(null)
+  const inView = useInView(ref , {margin :"-50px"});
   const {updateSection} = useSectionsContext()
   useEffect(()=>{
       inView && updateSection("PROJECTS")
   },[inView , updateSection])
-
   return (
     <p
       ref={ref}
-      className={`  text-lg w-[90%] mt-5 text-slate-400 font-normal  `}
+      className={`  text-lg w-[95%] mt-5 text-slate-400 font-normal lg:text-left text-center  `}
     >
       My main focus these days is dreaming up,{" "}
       <span className="text-white font-medium">creating</span> and working on
