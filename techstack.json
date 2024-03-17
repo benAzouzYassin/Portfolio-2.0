@@ -75,8 +75,8 @@
   ],
   "learning": [
     {
-      "name": "Angular",
-      "icon": "https://cdn.simpleicons.org/Angular/red"
+      "name": "Laravel",
+      "icon": "https://cdn.simpleicons.org/Laravel"
     },
     {
       "name": "Docker",
