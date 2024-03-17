@@ -1,5 +1,4 @@
 [
-  
   {
     "name": "Web developer",
     "company": "Aftercode Tunisia",
@@ -17,5 +16,5 @@
     "company": "Caveo",
     "companyLogo": "/work.svg",
     "period": "2023 - 2023"
-  },
+  }
 ]
