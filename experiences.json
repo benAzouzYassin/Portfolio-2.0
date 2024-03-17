@@ -1,20 +1,21 @@
 [
+  
   {
-    "name": "Web Dev Intern",
+    "name": "Web developer",
     "company": "Aftercode Tunisia",
     "companyLogo": "/work.svg",
     "period": "2024 - present"
   },
   {
-    "name": "Intern",
-    "company": "Caveo",
+    "name": "Web dev intern",
+    "company": "Aftercode Tunisia",
     "companyLogo": "/work.svg",
-    "period": "2022 - 2022"
+    "period": "2024 - 2024"
   },
   {
-    "name": "Student",
-    "company": "ISET zaghouan",
-    "companyLogo": "/university.svg",
-    "period": "2022 - present"
-  }
+    "name": "IT intern",
+    "company": "Caveo",
+    "companyLogo": "/work.svg",
+    "period": "2023 - 2023"
+  },
 ]
