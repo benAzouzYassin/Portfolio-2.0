@@ -39,16 +39,16 @@
       "icon": "https://cdn.simpleicons.org/Python"
     },
     {
-      "name": "Flask",
-      "icon": "https://cdn.simpleicons.org/Flask/white"
+      "name": "Django",
+      "icon": "https://cdn.simpleicons.org/django"
     },
     {
       "name": "Firebase",
       "icon": "https://cdn.simpleicons.org/Firebase"
     },
     {
-      "name": "MongoDB",
-      "icon": "https://cdn.simpleicons.org/MongoDB"
+      "name": "graphQL",
+      "icon": "https://cdn.simpleicons.org/graphql"
     },
     {
       "name": "MySQL",
@@ -110,10 +110,7 @@
       "name": "Bun",
       "icon": "https://cdn.simpleicons.org/Bun/white"
     },
-    {
-      "name": "graphQL",
-      "icon": "https://cdn.simpleicons.org/graphql"
-    },
+
     {
       "name": "Postgresql",
       "icon": "https://cdn.simpleicons.org/Postgresql/"
