@@ -21,8 +21,12 @@
       "icon": "https://cdn.simpleicons.org/Next.js/white"
     },
     {
-      "name": "JQuery",
-      "icon": "https://cdn.simpleicons.org/Jquery"
+      "name": "Tanstack Query",
+      "icon": "https://cdn.simpleicons.org/reactquery"
+    },
+    {
+      "name": "Shadcn/ui",
+      "icon": "https://cdn.simpleicons.org/shadcnui/white"
     }
   ],
   "backend": [
@@ -54,7 +58,7 @@
     {
       "name": "Firebase",
       "icon": "https://cdn.simpleicons.org/Firebase"
-    },
+    }
   ],
   "tools": [
     {
@@ -72,7 +76,7 @@
     {
       "name": "Docker",
       "icon": "https://cdn.simpleicons.org/Docker"
-    },
+    }
   ],
   "learning": [
   
@@ -85,20 +89,22 @@
       "icon": "https://cdn.simpleicons.org/Springboot"
     },
     {
-      "name": "Flutter",
-      "icon": "https://cdn.simpleicons.org/Flutter"
+      "name": "VueJS",
+      "icon": "https://cdn.simpleicons.org/vuedotjs"
+    },
+   
+    {
+      "name": "Nuxt",
+      "icon": "https://cdn.simpleicons.org/nuxtdotjs"
     },
     {
-      "name": "Dart",
-      "icon": "https://cdn.simpleicons.org/Dart"
+      "name": "NestJS",
+      "icon": "https://cdn.simpleicons.org/nestjs"
     },
-    {
-      "name": "Go",
-      "icon": "https://cdn.simpleicons.org/Go"
-    },
+   
     {
       "name": "AWS",
       "icon": "https://cdn.simpleicons.org/amazonwebservices"
-    },
+    }
   ]
 }
