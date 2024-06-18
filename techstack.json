@@ -42,22 +42,19 @@
       "name": "Django",
       "icon": "https://cdn.simpleicons.org/django"
     },
-    {
-      "name": "Firebase",
-      "icon": "https://cdn.simpleicons.org/Firebase"
-    },
+   
     {
       "name": "graphQL",
       "icon": "https://cdn.simpleicons.org/graphql"
     },
     {
-      "name": "MySQL",
-      "icon": "https://cdn.simpleicons.org/MySQL"
+      "name": "Strapi",
+      "icon": "https://cdn.simpleicons.org/strapi"
     },
     {
-      "name": "SocketIO",
-      "icon": "https://cdn.simpleicons.org/socketdotio/white"
-    }
+      "name": "Firebase",
+      "icon": "https://cdn.simpleicons.org/Firebase"
+    },
   ],
   "tools": [
     {
@@ -69,19 +66,16 @@
       "icon": "https://cdn.simpleicons.org/GitHub/white"
     },
     {
-      "name": "Vite",
-      "icon": "https://cdn.simpleicons.org/Vite"
-    }
-  ],
-  "learning": [
-    {
-      "name": "Laravel",
-      "icon": "https://cdn.simpleicons.org/Laravel"
+      "name": "Gitlab",
+      "icon": "https://cdn.simpleicons.org/gitlab"
     },
     {
       "name": "Docker",
       "icon": "https://cdn.simpleicons.org/Docker"
     },
+  ],
+  "learning": [
+  
     {
       "name": "Java",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
@@ -102,18 +96,6 @@
       "name": "Go",
       "icon": "https://cdn.simpleicons.org/Go"
     },
-    {
-      "name": "deno",
-      "icon": "https://cdn.simpleicons.org/Deno/white"
-    },
-    {
-      "name": "Bun",
-      "icon": "https://cdn.simpleicons.org/Bun/white"
-    },
 
-    {
-      "name": "Postgresql",
-      "icon": "https://cdn.simpleicons.org/Postgresql/"
-    }
   ]
 }
