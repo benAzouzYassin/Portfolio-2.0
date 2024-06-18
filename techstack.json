@@ -96,6 +96,9 @@
       "name": "Go",
       "icon": "https://cdn.simpleicons.org/Go"
     },
-
+    {
+      "name": "AWS",
+      "icon": "https://cdn.simpleicons.org/amazonwebservices"
+    },
   ]
 }
