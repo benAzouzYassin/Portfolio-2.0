@@ -21,11 +21,11 @@ export default function Projects() {
       </h2>
 
       <div className={space_Grotesk.className}>
-        <Paragraph />
+        {/* <Paragraph /> */}
         <div className="mt-10 flex flex-col gap-y-10 gap-x-16">
           {projects.map((project, index) => (
             <Project key={project.name} index={index} {...project} />
-            ))}
+          ))}
         </div>
       </div>
     </section>

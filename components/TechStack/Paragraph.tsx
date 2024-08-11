@@ -1,62 +1,64 @@
-"use client"
+"use client";
 import { useSectionsContext } from "@/context/sectionsContext";
-import { motion, useAnimation , useInView } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 export default function Paragraph() {
-  const ref = useRef(null)
-  const inView= useInView(ref );
-  const { updateSection } = useSectionsContext()
-  const animate = useAnimation()
+  const ref = useRef(null);
+  const inView = useInView(ref);
+  const { updateSection } = useSectionsContext();
+  const animate = useAnimation();
   useEffect(() => {
-    if(inView){
-      updateSection("TECH STACK")
-      animate.start({opacity : 1 , y : 0})
-    }else{
-      animate.start({opacity : 0 , y : 70 })
+    if (inView) {
+      updateSection("TECH STACK");
+      animate.start({ opacity: 1, y: 0 });
+    } else {
+      animate.start({ opacity: 0, y: 70 });
     }
-  }, [inView, updateSection , animate])
-  
+  }, [inView, updateSection, animate]);
+
   return (
     <>
       <motion.p
-        initial ={{opacity : 0 , y : 70}}
-        transition={{duration : 0.55}}
+        initial={{ opacity: 0, y: 70 }}
+        transition={{ duration: 0.55 }}
         animate={animate}
-        className={`  text-lg w-[95%] mt-5 text-slate-400 font-normal lg:text-left text-center  `}
+        className={`  text-lg w-[95%] mt-5 text-slate-400 font-normal   `}
       >
-        In the realm of code, my primary stack encompasses{" "}
-        <span className="text-yellow-200 font-medium  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          Javascript
+        My primary stack includes{" "}
+        <span className="text-blue-400 font-medium  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+          React
         </span>{" "}
         and{" "}
-        <span className="font-medium text-blue-400  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          TypeScript
+        <span className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+          NextJs
         </span>
-        , harmoniously weaving their magic in web development. From{" "}
+        , which I use extensively in web development alongside{" "}
+        <span className="font-medium text-blue-400  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+          TailwindCss
+        </span>{" "}
+        . I also work with technologies like{" "}
         <span className="font-medium text-[#49a15f]  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          Node
+          Node js
         </span>{" "}
-        to{" "}
-        <span className="font-medium text-blue-400  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          React
+        ,
+        <span className="font-medium text-yellow-200  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+          {" "}
+          Python with Django{" "}
         </span>
-        ,{" "}
-        <span className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          Next.js
+        and{" "}
+        <span className="font-medium text-purple-500  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+          Strapi
         </span>{" "}
-        to{" "}
+        to , and exploring the the newer tools like{" "}
         <span className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          Express
-        </span>
-        , and exploring the promising realms of{" "}
-        <span className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
-          Deno
+          Drizzle orm
         </span>{" "}
         and{" "}
         <span
           ref={ref}
-          className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0">
+          className="font-medium text-gray-300  hover:underline hover:cursor-pointer underline-offset-4 decoration-0"
+        >
           Bun
         </span>
         .
