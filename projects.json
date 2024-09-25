@@ -1,23 +1,30 @@
 [
-  {
-    "img": "/formbuilder.webp",
-    "name": "Form Builder",
-    "description": "A platform where users can build forms and receive the submissions.",
-    "link": "https://form-builder-one.vercel.app/",
-    "videoLink": ""
-  },
-  {
-    "img": "/positivius.webp",
-    "name": "Agency landing-page",
-    "description": "Beautiful landing page for a digital agency.",
-    "link": "https://positivus-beta.vercel.app/",
-    "videoLink": ""
-  },
-  {
-    "img": "/image-to.webp",
-    "name": "Image-to-webp-converter",
-    "description": "Free and simple image-to-webp converter that does not require a backend.  ",
-    "link": "",
-    "videoLink": ""
-  }
+    {
+        "img": "/formbuilder.webp",
+        "name": "Form Builder",
+        "description": "A platform where users can build forms and receive the submissions.",
+        "link": "https://form-builder-one.vercel.app/",
+        "videoLink": ""
+    },
+    {
+        "img": "/positivius.webp",
+        "name": "Agency landing-page",
+        "description": "Beautiful landing page for a digital agency.",
+        "link": "https://positivus-beta.vercel.app/",
+        "videoLink": ""
+    },
+    {
+        "img": "/minimal-store.webp",
+        "name": "Minimal shop",
+        "description": "Minimalist shop with all the necessary features of an ecomm .",
+        "link": "https://project-ecomm-store.vercel.app/",
+        "videoLink": ""
+    },
+    {
+        "img": "/image-to.webp",
+        "name": "Image-to-webp-converter",
+        "description": "Free and simple image-to-webp converter that does not require a backend.  ",
+        "link": "",
+        "videoLink": ""
+    }
 ]
