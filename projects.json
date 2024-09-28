@@ -4,27 +4,123 @@
         "name": "Form Builder",
         "description": "A platform where users can build forms and receive the submissions.",
         "link": "https://form-builder-one.vercel.app/",
-        "videoLink": ""
+        "videoLink": "",
+        "images": [
+            "/project-images/form-builder/1.webp",
+            "/project-images/form-builder/2.webp",
+            "/project-images/form-builder/3.webp",
+            "/project-images/form-builder/4.webp",
+            "/project-images/form-builder/5.webp"
+        ],
+        "techStack": [
+            {
+                "name": "TailwindCss",
+                "textColor": "white",
+                "bgColor": "#0284c7"
+            },
+            {
+                "name": "Next JS",
+                "textColor": "black",
+                "bgColor": "#fafafa"
+            },
+            {
+                "name": "Clerk",
+                "textColor": "white",
+                "bgColor": "#171717"
+            },
+            {
+                "name": "PostgreSql",
+                "textColor": "white",
+                "bgColor": "#31648C"
+            }
+        ]
     },
     {
         "img": "/positivius.webp",
         "name": "Agency landing-page",
         "description": "Beautiful landing page for a digital agency.",
         "link": "https://positivus-beta.vercel.app/",
-        "videoLink": ""
+        "images": [
+            "/project-images/positivious/1.webp",
+            "/project-images/positivious/2.webp",
+            "/project-images/positivious/3.webp",
+            "/project-images/positivious/4.webp",
+            "/project-images/positivious/5.webp",
+            "/project-images/positivious/6.webp"
+        ],
+
+        "techStack": [
+            {
+                "name": "TailwindCss",
+                "textColor": "white",
+                "bgColor": "#0284c7"
+            },
+            {
+                "name": "React",
+                "textColor": "white",
+                "bgColor": "#1d4ed8"
+            },
+            {
+                "name": "Framer motion",
+                "textColor": "white",
+                "bgColor": "#DD3499"
+            }
+        ]
     },
     {
         "img": "/minimal-store.webp",
         "name": "Minimal shop",
         "description": "Minimalist shop with all the necessary features of an ecomm .",
         "link": "https://project-ecomm-store.vercel.app/",
-        "videoLink": ""
+
+        "images": [
+            "/project-images/project-ecomm/1.webp",
+            "/project-images/project-ecomm/2.webp",
+            "/project-images/project-ecomm/3.webp",
+            "/project-images/project-ecomm/4.webp",
+            "/project-images/project-ecomm/5.webp"
+        ],
+        "techStack": [
+            {
+                "name": "TailwindCss",
+                "textColor": "white",
+                "bgColor": "#0284c7"
+            },
+            {
+                "name": "Next JS",
+                "textColor": "black",
+                "bgColor": "#fafafa"
+            },
+            {
+                "name": "Node js",
+                "textColor": "white",
+                "bgColor": "#3C823B"
+            },
+            {
+                "name": "PostgreSql",
+                "textColor": "white",
+                "bgColor": "#31648C"
+            }
+        ]
     },
     {
+        "images": [],
         "img": "/image-to.webp",
         "name": "Image-to-webp-converter",
         "description": "Free and simple image-to-webp converter that does not require a backend.  ",
-        "link": "",
-        "videoLink": ""
+        "link": "https://converty-2.vercel.app/",
+        "videoLink": "",
+        "techStack": [
+            {
+                "name": "TailwindCss",
+                "textColor": "white",
+                "bgColor": "#0284c7"
+            },
+            {
+                "name": "Next JS",
+                "textColor": "black",
+                "bgColor": "#fafafa"
+            }
+        ]
     }
 ]
