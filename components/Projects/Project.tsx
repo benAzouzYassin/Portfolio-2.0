@@ -63,7 +63,7 @@ export default function Project(props: Props) {
             </div>
             <Dialog open={open} onOpenChange={setOpen}>
                 <DialogTrigger></DialogTrigger>
-                <DialogContent className="bg-neutral-900 flex flex-col text-white min-w-[80vw] md:min-h-[650px] rounded-xl md:rounded-3xl border-neutral-700">
+                <DialogContent className="bg-neutral-900 flex flex-col text-white min-w-[85vw] md:min-h-[650px] rounded-xl md:rounded-xl border-neutral-700">
                     <DialogTitle className="text-2xl !h-fit font-semibold capitalize">
                         {props.name}
                         {props.link && (
@@ -90,7 +90,7 @@ export default function Project(props: Props) {
                                     {props.images.map((img) => (
                                         <CarouselItem
                                             key={img}
-                                            className="md:basis-[53vw] basis-[85vw]  h-full">
+                                            className="md:basis-[800px] basis-[85vw]  h-full">
                                             <img
                                                 src={img}
                                                 className="md:h-[400px] h-[250px] object-contain"
