@@ -1,107 +1,102 @@
 {
-  "frontend": [
-    {
-      "name": "Javascript",
-      "icon": "https://cdn.simpleicons.org/Javascript"
-    },
-    {
-      "name": "Typescript",
-      "icon": "https://cdn.simpleicons.org/Typescript"
-    },
-    {
-      "name": "React",
-      "icon": "https://cdn.simpleicons.org/React"
-    },
-    {
-      "name": "TailwindCSS",
-      "icon": "https://cdn.simpleicons.org/TailwindCSS"
-    },
-    {
-      "name": "Nextjs",
-      "icon": "https://cdn.simpleicons.org/Next.js/white"
-    },
-    
-    {
-      "name": "Shadcn/ui",
-      "icon": "https://cdn.simpleicons.org/shadcnui/white"
-    }
-  ],
-  "backend": [
-    {
-      "name": "Nodejs",
-      "icon": "https://cdn.simpleicons.org/Node.js"
-    },
-    {
-      "name": "Express",
-      "icon": "https://cdn.simpleicons.org/Express/white"
-    },
-    {
-      "name": "Python",
-      "icon": "https://cdn.simpleicons.org/Python"
-    },
-    {
-      "name": "Django",
-      "icon": "https://cdn.simpleicons.org/django"
-    },
-   
-    {
-      "name": "graphQL",
-      "icon": "https://cdn.simpleicons.org/graphql"
-    },
-    {
-      "name": "Strapi",
-      "icon": "https://cdn.simpleicons.org/strapi"
-    },
-    {
-      "name": "Firebase",
-      "icon": "https://cdn.simpleicons.org/Firebase"
-    }
-  ],
-  "tools": [
-    {
-      "name": "Git",
-      "icon": "https://cdn.simpleicons.org/Git"
-    },
-    {
-      "name": "GitHub",
-      "icon": "https://cdn.simpleicons.org/GitHub/white"
-    },
-    {
-      "name": "Gitlab",
-      "icon": "https://cdn.simpleicons.org/gitlab"
-    },
-    {
-      "name": "Docker",
-      "icon": "https://cdn.simpleicons.org/Docker"
-    }
-  ],
-  "learning": [
-  
-    {
-      "name": "Java",
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-    },
-    {
-      "name": "Spring",
-      "icon": "https://cdn.simpleicons.org/Spring"
-    },
-    {
-      "name": "Vue",
-      "icon": "https://cdn.simpleicons.org/vuedotjs"
-    },
-   
-    {
-      "name": "Nuxt",
-      "icon": "https://cdn.simpleicons.org/nuxtdotjs"
-    },
-    {
-      "name": "NestJS",
-      "icon": "https://cdn.simpleicons.org/nestjs"
-    },
-   
-    {
-      "name": "AWS",
-      "icon": "https://cdn.simpleicons.org/amazonwebservices"
-    }
-  ]
+    "frontend": [
+        {
+            "name": "Javascript",
+            "icon": "https://cdn.simpleicons.org/Javascript"
+        },
+        {
+            "name": "Typescript",
+            "icon": "https://cdn.simpleicons.org/Typescript"
+        },
+        {
+            "name": "React",
+            "icon": "https://cdn.simpleicons.org/React"
+        },
+        {
+            "name": "TailwindCSS",
+            "icon": "https://cdn.simpleicons.org/TailwindCSS"
+        },
+        {
+            "name": "Nextjs",
+            "icon": "https://cdn.simpleicons.org/Next.js/white"
+        },
+
+        {
+            "name": "Shadcn/ui",
+            "icon": "https://cdn.simpleicons.org/shadcnui/white"
+        }
+    ],
+    "backend": [
+        {
+            "name": "Nodejs",
+            "icon": "https://cdn.simpleicons.org/Node.js"
+        },
+        {
+            "name": "Express",
+            "icon": "https://cdn.simpleicons.org/Express/white"
+        },
+        {
+            "name": "Python",
+            "icon": "https://cdn.simpleicons.org/Python"
+        },
+        {
+            "name": "Django",
+            "icon": "https://cdn.simpleicons.org/django"
+        },
+
+        {
+            "name": "graphQL",
+            "icon": "https://cdn.simpleicons.org/graphql"
+        },
+        {
+            "name": "Strapi",
+            "icon": "https://cdn.simpleicons.org/strapi"
+        }
+    ],
+    "tools": [
+        {
+            "name": "Git",
+            "icon": "https://cdn.simpleicons.org/Git"
+        },
+        {
+            "name": "GitHub",
+            "icon": "https://cdn.simpleicons.org/GitHub/white"
+        },
+        {
+            "name": "Gitlab",
+            "icon": "https://cdn.simpleicons.org/gitlab"
+        },
+        {
+            "name": "Docker",
+            "icon": "https://cdn.simpleicons.org/Docker"
+        }
+    ],
+    "learning": [
+        {
+            "name": "Java",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        },
+        {
+            "name": "Spring",
+            "icon": "https://cdn.simpleicons.org/Spring"
+        },
+        {
+            "name": "Vue",
+            "icon": "https://cdn.simpleicons.org/vuedotjs"
+        },
+
+        {
+            "name": "Nuxt",
+            "icon": "https://cdn.simpleicons.org/nuxtdotjs"
+        },
+        {
+            "name": "NestJS",
+            "icon": "https://cdn.simpleicons.org/nestjs"
+        },
+
+        {
+            "name": "AWS",
+            "icon": "https://cdn.simpleicons.org/amazonwebservices"
+        }
+    ]
 }

@@ -102,25 +102,5 @@
                 "bgColor": "#31648C"
             }
         ]
-    },
-    {
-        "images": [],
-        "img": "/image-to.webp",
-        "name": "Image-to-webp-converter",
-        "description": "Free and simple image-to-webp converter that does not require a backend.  ",
-        "link": "https://converty-2.vercel.app/",
-        "videoLink": "",
-        "techStack": [
-            {
-                "name": "TailwindCss",
-                "textColor": "white",
-                "bgColor": "#0284c7"
-            },
-            {
-                "name": "Next JS",
-                "textColor": "black",
-                "bgColor": "#fafafa"
-            }
-        ]
     }
 ]

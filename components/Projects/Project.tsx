@@ -45,7 +45,7 @@ export default function Project(props: Props) {
                         return setOpen(true);
                     }
                 }}
-                className="text-[#aeb8d3] lg:w-auto w-[80vw] ">
+                className="text-[#aeb8d3] w-full md:w-auto  ">
                 <Image
                     width={750}
                     height={700}
