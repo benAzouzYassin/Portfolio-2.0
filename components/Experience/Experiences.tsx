@@ -14,15 +14,11 @@ export default function Experiences() {
     const ref = useRef(null);
     const inView = useInView(ref, { margin: "-100px" });
     const { updateSection } = useSectionsContext();
-    const animate = useAnimation();
     useEffect(() => {
         if (inView) {
             updateSection("EXPERIENCES");
-            animate.start({ opacity: 1, rotateX: 0, scale: 1 });
-        } else {
-            animate.start({ opacity: 0, rotateX: -80, scale: 0.9 });
         }
-    }, [animate, inView, updateSection]);
+    }, [inView, updateSection]);
     return (
         <section id="EXPERIENCES" className="mt-10  text-[#cad6f6]">
             <h2
@@ -32,9 +28,13 @@ export default function Experiences() {
             <div className="mt-10" ref={ref}>
                 {experinces.map((exp) => (
                     <motion.div
-                        animate={animate}
                         initial={{ opacity: 0, rotateX: -80, scale: 0.9 }}
                         transition={{ duration: 0.8 }}
+                        whileInView={{ opacity: 1, rotateX: 0, scale: 1 }}
+                        viewport={{
+                            margin: "-100px",
+                            once: true,
+                        }}
                         key={exp.name}>
                         <Exp {...exp} />
                     </motion.div>

@@ -24,6 +24,10 @@
         {
             "name": "Shadcn/ui",
             "icon": "https://cdn.simpleicons.org/shadcnui/white"
+        },
+        {
+            "name": "Storybook",
+            "icon": "https://cdn.simpleicons.org/storybook"
         }
     ],
     "backend": [
