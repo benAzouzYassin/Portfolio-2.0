@@ -35,7 +35,7 @@ export default function About() {
                     full-stack web developer
                 </span>{" "}
                 from Tunisia with passion for computers and technology that
-                began at a young age ⚡
+                began at a young age
             </motion.p>
             <motion.p
                 initial={{ opacity: 0, y: 50 }}
@@ -48,24 +48,10 @@ export default function About() {
                 </span>{" "}
                 for frontend development, while for the backend, I often use{" "}
                 <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0  ">
-                    Django or Node.js 🍀
+                    Supabase or Node.js
                 </span>{" "}
             </motion.p>
-            <motion.p
-                initial={{ opacity: 0, y: 100 }}
-                transition={{ duration: 0.7 }}
-                animate={{ opacity: 1, y: 1 }}
-                className={`mt-3 md:w-[110%] 2xl:w-[100%]  text-lg hidden lg:block  text-slate-300/80 font-normal`}>
-                In my spare time, I enjoy{" "}
-                <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0  ">
-                    exploring new technologies
-                </span>{" "}
-                ( currently infrastructure and cloud computing ) ,Also i{" "}
-                <span className="font-medium text-[#57debe] hover:underline hover:cursor-pointer underline-offset-4 decoration-0  ">
-                    enjoy building useful personal projects like Converty .
-                </span>{" "}
-                (an image-to-WebP converter that operates without a backend ✨).
-            </motion.p>
+
             <TopArrow />
         </section>
     );

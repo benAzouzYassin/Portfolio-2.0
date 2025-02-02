@@ -13,7 +13,7 @@ export default function TechStack() {
     return (
         <section id="TECH STACK">
             <h2
-                className={`flex gap-1 mt-16 lg:mt-32 font-bold text-4xl text-[#cad6f6]  ${inter.className}`}>
+                className={`flex gap-1 mt-8 lg:mt-16 font-bold text-2xl text-[#cad6f6]  ${inter.className}`}>
                 TECH STACK{" "}
                 <img
                     className="self-end aspect-square"

@@ -14,7 +14,7 @@ export default function Projects() {
     return (
         <section id="PROJECTS">
             <h2
-                className={`flex gap-1 mt-16  font-bold text-4xl text-[#cad6f6]  ${inter.className}`}>
+                className={`flex gap-1 mt-16  font-bold text-2xl text-[#cad6f6]  ${inter.className}`}>
                 WHAT I&apos;VE BUILT{" "}
                 <SquareDashedBottomCode className="self-center scale-110" />
             </h2>

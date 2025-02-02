@@ -22,7 +22,7 @@ export default function Experiences() {
     return (
         <section id="EXPERIENCES" className="mt-10  text-[#cad6f6]">
             <h2
-                className={`flex gap-1 mt-12 font-bold text-4xl text-[#cad6f6]  ${inter.className}`}>
+                className={`flex gap-1 mt-12 font-bold text-2xl text-[#cad6f6]  ${inter.className}`}>
                 Experiences
             </h2>
             <div className="mt-10" ref={ref}>
