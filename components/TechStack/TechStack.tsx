@@ -27,7 +27,7 @@ export default function TechStack() {
                 <Frontend />
                 <Backend />
                 <Tooling />
-                <Others />
+                {/* <Others /> */}
             </div>
         </section>
     );

@@ -1,20 +1,26 @@
 [
-  {
-    "name": "Web developer",
-    "company": "Aftercode Tunisia",
-    "companyLogo": "/work.svg",
-    "period": "2024 - present"
-  },
-  {
-    "name": "Web dev intern",
-    "company": "Aftercode Tunisia",
-    "companyLogo": "/work.svg",
-    "period": "2024 - 2024"
-  },
-  {
-    "name": "IT intern",
-    "company": "Caveo",
-    "companyLogo": "/work.svg",
-    "period": "2023 - 2023"
-  }
+    {
+        "name": "Software dev intern",
+        "company": "Softylines",
+        "companyLogo": "/work.svg",
+        "period": "2025 - present"
+    },
+    {
+        "name": "Part-time developer",
+        "company": "Aftercode Tunisia",
+        "companyLogo": "/work.svg",
+        "period": "2024 - 2025"
+    },
+    {
+        "name": "Software dev intern",
+        "company": "Aftercode Tunisia",
+        "companyLogo": "/work.svg",
+        "period": "2024 - 2024"
+    },
+    {
+        "name": "IT intern",
+        "company": "Caveo",
+        "companyLogo": "/work.svg",
+        "period": "2023 - 2023"
+    }
 ]

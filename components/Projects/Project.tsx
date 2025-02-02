@@ -49,7 +49,7 @@ export default function Project(props: Props) {
                 <Image
                     width={750}
                     height={700}
-                    className="aspect-[16/9] hover:rotate-1 hover:scale-[102%] rounded-md hover:cursor-pointer transition-transform  "
+                    className="aspect-[16/9] object-cover object-center hover:rotate-1 hover:scale-[102%] rounded-md hover:cursor-pointer transition-transform  "
                     src={props.img}
                     alt={props.description}
                 />

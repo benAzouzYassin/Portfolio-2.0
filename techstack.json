@@ -55,20 +55,16 @@
         {
             "name": "Strapi",
             "icon": "https://cdn.simpleicons.org/strapi"
+        },
+        {
+            "name": "Supabase",
+            "icon": "https://cdn.simpleicons.org/supabase"
         }
     ],
     "tools": [
         {
             "name": "Git",
             "icon": "https://cdn.simpleicons.org/Git"
-        },
-        {
-            "name": "GitHub",
-            "icon": "https://cdn.simpleicons.org/GitHub/white"
-        },
-        {
-            "name": "Gitlab",
-            "icon": "https://cdn.simpleicons.org/gitlab"
         },
         {
             "name": "Docker",
@@ -89,10 +85,6 @@
             "icon": "https://cdn.simpleicons.org/vuedotjs"
         },
 
-        {
-            "name": "Nuxt",
-            "icon": "https://cdn.simpleicons.org/nuxtdotjs"
-        },
         {
             "name": "NestJS",
             "icon": "https://cdn.simpleicons.org/nestjs"

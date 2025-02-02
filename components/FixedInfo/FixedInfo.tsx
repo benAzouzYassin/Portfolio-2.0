@@ -69,7 +69,7 @@ export default function FixedInfo() {
                         alt="LinkedIn"
                         height="20"
                         width="20"
-                        src="https://cdn.simpleicons.org/LinkedIn/white"
+                        src="/linkedin.svg"
                     />
                 </a>
                 <a

@@ -36,12 +36,59 @@
         ]
     },
     {
+        "img": "/project-images/erpygo-pos/cover.webp",
+        "name": "Erpygo system",
+        "description": "Erpygo is a system for managing business recourses, it manages product, documents, customers and many more...",
+        "link": "",
+        "videoLink": "",
+        "images": [
+            "/project-images/erpygo-pos/6.webp",
+            "/project-images/erpygo-pos/7.webp",
+            "/project-images/erpygo-pos/1.webp",
+            "/project-images/erpygo-pos/2.webp",
+            "/project-images/erpygo-pos/4.webp",
+            "/project-images/erpygo-pos/5.webp",
+            "/project-images/erpygo-pos/8.webp",
+            "/project-images/erpygo-pos/9.webp",
+            "/project-images/erpygo-pos/12.webp",
+            "/project-images/erpygo-pos/13.webp"
+        ],
+        "techStack": [
+            {
+                "name": "TailwindCss",
+                "textColor": "white",
+                "bgColor": "#0284c7"
+            },
+            {
+                "name": "Next JS",
+                "textColor": "black",
+                "bgColor": "#fafafa"
+            },
+            {
+                "name": "Graphql",
+                "textColor": "white",
+                "bgColor": "#DD3499"
+            },
+            {
+                "name": "Node js",
+                "textColor": "white",
+                "bgColor": "#3C823B"
+            },
+            {
+                "name": "PostgreSql",
+                "textColor": "white",
+                "bgColor": "#31648C"
+            }
+        ]
+    },
+
+    {
         "img": "/positivius.webp",
         "name": "Agency landing-page",
         "description": "Beautiful landing page for a digital agency.",
         "link": "https://positivus-beta.vercel.app/",
         "images": [
-            "/project-images/positivious/1.webp",
+            "/project-images/b2vision/1.webp",
             "/project-images/positivious/2.webp",
             "/project-images/positivious/3.webp",
             "/project-images/positivious/4.webp",
@@ -64,6 +111,43 @@
                 "name": "Framer motion",
                 "textColor": "white",
                 "bgColor": "#DD3499"
+            }
+        ]
+    },
+    {
+        "img": "/project-images/b2vision/1.webp",
+        "name": "Marketing Agency website",
+        "description": "Website for a digital marketing agency.",
+        "link": "",
+        "images": [
+            "/project-images/b2vision/1.webp",
+            "/project-images/b2vision/2.webp",
+            "/project-images/b2vision/3.webp",
+            "/project-images/b2vision/4.webp",
+            "/project-images/b2vision/5.webp",
+            "/project-images/b2vision/6.webp"
+        ],
+
+        "techStack": [
+            {
+                "name": "TailwindCss",
+                "textColor": "white",
+                "bgColor": "#0284c7"
+            },
+            {
+                "name": "React",
+                "textColor": "white",
+                "bgColor": "#1d4ed8"
+            },
+            {
+                "name": "Framer motion",
+                "textColor": "white",
+                "bgColor": "#DD3499"
+            },
+            {
+                "name": "Strapi",
+                "textColor": "white",
+                "bgColor": "#4F46E5"
             }
         ]
     },

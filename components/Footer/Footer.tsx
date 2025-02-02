@@ -33,7 +33,7 @@ export default function Footer() {
                 , and proudly hosted on Vercel. The visual design was
                 meticulously crafted, drawing inspiration from my imagination.
             </p>
-            <p className="mt-2 font-normal">© 2023 Yassine Ben Azouz</p>
+            <p className="mt-2 font-normal">© 2025 Yassine Ben Azouz</p>
         </motion.footer>
     );
 }
