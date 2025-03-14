@@ -24,11 +24,8 @@
         {
             "name": "Shadcn/ui",
             "icon": "https://cdn.simpleicons.org/shadcnui/white"
-        },
-        {
-            "name": "Storybook",
-            "icon": "https://cdn.simpleicons.org/storybook"
         }
+  
     ],
     "backend": [
         {
@@ -39,15 +36,6 @@
             "name": "Express",
             "icon": "https://cdn.simpleicons.org/Express/white"
         },
-        {
-            "name": "Python",
-            "icon": "https://cdn.simpleicons.org/Python"
-        },
-        {
-            "name": "Django",
-            "icon": "https://cdn.simpleicons.org/django"
-        },
-
         {
             "name": "graphQL",
             "icon": "https://cdn.simpleicons.org/graphql"
