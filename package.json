@@ -17,7 +17,7 @@
     "embla-carousel-react": "^8.3.0",
     "framer-motion": "^10.17.9",
     "lucide-react": "^0.279.0",
-    "next": "latest",
+    "next": "15.5.8",
     "react": "latest",
     "react-dom": "latest",
     "tailwind-merge": "^2.5.2",
